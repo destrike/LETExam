@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.teamexpde.user.letexam.MainActivity"
+    android:gravity="center">
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="ENGLISH"
+        android:id="@+id/buttonEng"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="177dp"
+        android:onClick="mEnglish" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="SCIENCE"
+        android:id="@+id/buttonSci"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="mScience" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="HEKASI"
+        android:id="@+id/buttonHek"
+        android:layout_below="@+id/buttonSci"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:onClick="mHekasi" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="INSTRUNCTIONS"
+        android:id="@+id/buttonInt"
+        android:layout_below="@+id/buttonHek"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:onClick="mInstruct" />
+</RelativeLayout>
