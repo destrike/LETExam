@@ -27,6 +27,7 @@
         android:id="@+id/buttonSci"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
         android:onClick="mScience" />
 
     <Button
@@ -36,7 +37,7 @@
         android:id="@+id/buttonHek"
         android:layout_below="@+id/buttonSci"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="29dp"
         android:onClick="mHekasi" />
 
     <Button
