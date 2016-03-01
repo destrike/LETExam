@@ -1304,16 +1304,482 @@ public class English extends Activity {
         }
 
 
+        if (n == 35) {
+            if (answerContent.equals("simple sentence")) {
+                Toast.makeText(getApplicationContext(), "Correct",
+                        Toast.LENGTH_SHORT).show();
+                quiz.setText("37. He is active in sports and he can play a musical instrument too.");
+
+                A1.setText("simple sentence");
+                A2.setText("compound sentence");
+                A3.setText("complex sentence");
+                A4.setText("none of the above");
 
 
-        if (n == 9) {
+                scoreTxt.setText(score + 1 + "");
+
+            } else {
+                //incorrect
+                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is simple sentence",
+                        Toast.LENGTH_SHORT).show();
+
+                quiz.setText("37. He is active in sports and he can play a musical instrument too.");
+
+                A1.setText("simple sentence");
+                A2.setText("compound sentence");
+                A3.setText("complex sentence");
+                A4.setText("none of the above");
+
+
+
+                scoreTxt.setText(score+0+"");
+
+            }
+        }
+
+        if (n == 36) {
+            if (answerContent.equals("complex sentence")) {
+                Toast.makeText(getApplicationContext(), "Correct",
+                        Toast.LENGTH_SHORT).show();
+                quiz.setText("38. Daang hari Elementary School is located beside the PTRI compound.");
+
+                A1.setText("simple sentence");
+                A2.setText("compound sentence");
+                A3.setText("complex sentence");
+                A4.setText("none of the above");
+
+
+                scoreTxt.setText(score + 1 + "");
+
+            } else {
+                //incorrect
+                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is complex sentence",
+                        Toast.LENGTH_SHORT).show();
+
+                quiz.setText("38. Daang hari Elementary School is located beside the PTRI compound.");
+
+                A1.setText("simple sentence");
+                A2.setText("compound sentence");
+                A3.setText("complex sentence");
+                A4.setText("none of the above");
+
+
+
+                scoreTxt.setText(score+0+"");
+
+            }
+        }
+
+        if (n == 37) {
+            if (answerContent.equals("simple sentence")) {
+                Toast.makeText(getApplicationContext(), "Correct",
+                        Toast.LENGTH_SHORT).show();
+                quiz.setText("39. My parents are both busy at work but they find time to attend school meetings");
+
+                A1.setText("simple sentence");
+                A2.setText("compound sentence");
+                A3.setText("complex sentence");
+                A4.setText("none of the above");
+
+
+                scoreTxt.setText(score + 1 + "");
+
+            } else {
+                //incorrect
+                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is simple sentence",
+                        Toast.LENGTH_SHORT).show();
+
+                quiz.setText("39. My parents are both busy at work but they find time to attend school meetings");
+
+                A1.setText("simple sentence");
+                A2.setText("compound sentence");
+                A3.setText("complex sentence");
+                A4.setText("none of the above");
+
+
+
+                scoreTxt.setText(score+0+"");
+
+            }
+        }
+
+        if (n == 38) {
+            if (answerContent.equals("complex sentence")) {
+                Toast.makeText(getApplicationContext(), "Correct",
+                        Toast.LENGTH_SHORT).show();
+                quiz.setText("40. The teacher said, \"Class, pass yout assignments\".");
+
+                A1.setText("The teacher told the class to pass their assignments");
+                A2.setText("The teacher asked the class to pass their assignments");
+                A3.setText("The teacher asked the class if they passed their assignments");
+                A4.setText("The teacher requested the class if they passed their assignments");
+
+
+                scoreTxt.setText(score + 1 + "");
+
+            } else {
+                //incorrect
+                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is complex sentence",
+                        Toast.LENGTH_SHORT).show();
+
+                quiz.setText("40. The teacher said, \"Class, pass yout assignments\".");
+
+                A1.setText("The teacher told the class to pass their assignments");
+                A2.setText("The teacher asked the class to pass their assignments");
+                A3.setText("The teacher asked the class if they passed their assignments");
+                A4.setText("The teacher requested the class if they passed their assignments");
+
+
+
+                scoreTxt.setText(score+0+"");
+
+            }
+        }
+
+        if (n == 39) {
+            if (answerContent.equals("The teacher told the class to pass their assignments")) {
+                Toast.makeText(getApplicationContext(), "Correct",
+                        Toast.LENGTH_SHORT).show();
+                quiz.setText("41. Mother said, \"Honey, please fix the roof\".");
+
+                A1.setText("Mother told Father to fix the roof");
+                A2.setText("Mother asked Father if he can fix the roof");
+                A3.setText("Mother requested Father to fix the roof");
+                A4.setText("Mother commanded Father to fix the roof");
+
+
+                scoreTxt.setText(score + 1 + "");
+
+            } else {
+                //incorrect
+                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is The teacher told the class to pass their assignments",
+                        Toast.LENGTH_SHORT).show();
+
+                quiz.setText("41. Mother said, \"Honey, please fix the roof\".");
+
+                A1.setText("Mother told Father to fix the roof");
+                A2.setText("Mother asked Father if he can fix the roof");
+                A3.setText("Mother requested Father to fix the roof");
+                A4.setText("Mother commanded Father to fix the roof");
+
+
+
+                scoreTxt.setText(score+0+"");
+
+            }
+        }
+
+        if (n == 40) {
+            if (answerContent.equals("Mother requested Father to fix the roof")) {
+                Toast.makeText(getApplicationContext(), "Correct",
+                        Toast.LENGTH_SHORT).show();
+                quiz.setText("42. \"Denzel, will you carry my bags upstairs\", the teacher said.");
+
+                A1.setText("The teacher asked Denzel if he will carry the bag upstairs");
+                A2.setText("The teacher requested Denzel to carry her bag upstairs");
+                A3.setText("The teacher commanded Denzel to carry her bag upstairs");
+                A4.setText("The teacher told Denzel to carry her bag upstairs");
+
+
+                scoreTxt.setText(score + 1 + "");
+
+            } else {
+                //incorrect
+                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is Mother requested Father to fix the roof",
+                        Toast.LENGTH_SHORT).show();
+
+                quiz.setText("42. \"Denzel, will you carry my bags upstairs\", the teacher said.");
+
+                A1.setText("The teacher asked Denzel if he will carry the bag upstairs");
+                A2.setText("The teacher requested Denzel to carry her bag upstairs");
+                A3.setText("The teacher commanded Denzel to carry her bag upstairs");
+                A4.setText("The teacher told Denzel to carry her bag upstairs");
+
+
+
+                scoreTxt.setText(score+0+"");
+
+            }
+        }
+
+
+        if (n == 41) {
+            if (answerContent.equals("The teacher requested Denzel to carry her bag upstairs")) {
+                Toast.makeText(getApplicationContext(), "Correct",
+                        Toast.LENGTH_SHORT).show();
+                quiz.setText("43. Dexter said, \"I am an only child\".");
+
+                A1.setText("Dexter told me that he is an only child.");
+                A2.setText("Dexter asked me if he is an only child.");
+                A3.setText("Dexter said that he is the only child.");
+                A4.setText("Dexter commanded that he must be the only child");
+
+
+                scoreTxt.setText(score + 1 + "");
+
+            } else {
+                //incorrect
+                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is The teacher requested Denzel to carry her bag upstairs",
+                        Toast.LENGTH_SHORT).show();
+
+                quiz.setText("43. Dexter said, \"I am an only child\".");
+
+                A1.setText("Dexter told me that he is an only child.");
+                A2.setText("Dexter asked me if he is an only child.");
+                A3.setText("Dexter said that he is the only child.");
+                A4.setText("Dexter commanded that he must be the only child");
+
+
+
+                scoreTxt.setText(score+0+"");
+
+            }
+        }
+
+        if (n == 42) {
+            if (answerContent.equals("Dexter said that he is the only child.")) {
+                Toast.makeText(getApplicationContext(), "Correct",
+                        Toast.LENGTH_SHORT).show();
+                quiz.setText("44. Grandma said,\" Five pesos used to buy a lot from the market\".");
+
+                A1.setText("Grandma told me that five pesos used to buy a lot in the market");
+                A2.setText("Grandma said that five pesos used to buy a lot in the market.");
+                A3.setText("Grandma asked if five pesos used to buy a lot in the market.");
+                A4.setText("Gradma commanded that five pesos should a lot in the market.");
+
+
+                scoreTxt.setText(score + 1 + "");
+
+            } else {
+                //incorrect
+                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is Dexter said that he is the only child.",
+                        Toast.LENGTH_SHORT).show();
+
+                quiz.setText("44. Grandma said,\" Five pesos used to buy a lot from the market\".");
+
+                A1.setText("Grandma told me that five pesos used to buy a lot in the market");
+                A2.setText("Grandma said that five pesos used to buy a lot in the market.");
+                A3.setText("Grandma asked if five pesos used to buy a lot in the market.");
+                A4.setText("Gradma commanded that five pesos should a lot in the market.");
+
+
+
+                scoreTxt.setText(score+0+"");
+
+            }
+        }
+
+        if (n == 43) {
+            if (answerContent.equals("Grandma said that five pesos used to buy a lot in the market.")) {
+                Toast.makeText(getApplicationContext(), "Correct",
+                        Toast.LENGTH_SHORT).show();
+                quiz.setText("45. Cristian asked,\" Do you believe in ghost, Andre\"?");
+
+                A1.setText("Cristian asked Andre if you believe in ghost.");
+                A2.setText("Cristian asked Andre if he believes in ghost.");
+                A3.setText("Cristian requested Andre to believe in ghost");
+                A4.setText("Cristian told Andre to belive in ghost.");
+
+
+                scoreTxt.setText(score + 1 + "");
+
+            } else {
+                //incorrect
+                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is Grandma said that five pesos used to buy a lot in the market.",
+                        Toast.LENGTH_SHORT).show();
+
+                quiz.setText("45. Cristian asked,\" Do you believe in ghost, Andre\"?");
+
+                A1.setText("Cristian asked Andre if you believe in ghost.");
+                A2.setText("Cristian asked Andre if he believes in ghost.");
+                A3.setText("Cristian requested Andre to believe in ghost");
+                A4.setText("Cristian told Andre to belive in ghost.");
+
+
+
+                scoreTxt.setText(score+0+"");
+
+            }
+        }
+
+        if (n == 44) {
+            if (answerContent.equals("Cristian asked Andre if he believes in ghost.")) {
+                Toast.makeText(getApplicationContext(), "Correct",
+                        Toast.LENGTH_SHORT).show();
+                quiz.setText("46. Danielle asked the clerk, \"Is your office open on Saturdays?\"");
+
+                A1.setText("Danielle asked the clerk if their office is open on Saturdays?");
+                A2.setText("Danielle asked the clerk if their office is open on Saturdays?");
+                A3.setText("Danielle told the clerk to open their office on Saturdays.");
+                A4.setText("Danielle requested the clerk to open her office on Saturdays.");
+
+
+                scoreTxt.setText(score + 1 + "");
+
+            } else {
+                //incorrect
+                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is Cristian asked Andre if he believes in ghost.",
+                        Toast.LENGTH_SHORT).show();
+
+                quiz.setText("46. Danielle asked the clerk, \"Is your office open on Saturdays?\"");
+
+                A1.setText("Danielle asked the clerk if their office is open on Saturdays?");
+                A2.setText("Danielle asked the clerk if their office is open on Saturdays?");
+                A3.setText("Danielle told the clerk to open their office on Saturdays.");
+                A4.setText("Danielle requested the clerk to open her office on Saturdays.");
+
+
+
+                scoreTxt.setText(score+0+"");
+
+            }
+        }
+
+
+        if (n == 45) {
+            if (answerContent.equals("Danielle asked the clerk if their office is open on Saturdays?")) {
+                Toast.makeText(getApplicationContext(), "Correct",
+                        Toast.LENGTH_SHORT).show();
+                quiz.setText("47. Truly, that woman has a heart of gold");
+
+                A1.setText("Simile");
+                A2.setText("Metaphor");
+                A3.setText("Personification");
+                A4.setText("Hyperbole");
+
+
+                scoreTxt.setText(score + 1 + "");
+
+            } else {
+                //incorrect
+                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is Danielle asked the clerk if their office is open on Saturdays?.",
+                        Toast.LENGTH_SHORT).show();
+
+                quiz.setText("47. Truly, that woman has a heart of gold");
+
+                A1.setText("Simile");
+                A2.setText("Metaphor");
+                A3.setText("Personification");
+                A4.setText("Hyperbole");
+
+
+
+                scoreTxt.setText(score+0+"");
+
+            }
+        }
+
+        if (n == 46) {
+            if (answerContent.equals("Metaphor")) {
+                Toast.makeText(getApplicationContext(), "Correct",
+                        Toast.LENGTH_SHORT).show();
+                quiz.setText("48. I will love you until the rivers run dry.");
+
+                A1.setText("Simile");
+                A2.setText("Metaphor");
+                A3.setText("Personification");
+                A4.setText("Hyperbole");
+
+
+                scoreTxt.setText(score + 1 + "");
+
+            } else {
+                //incorrect
+                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is Metaphor.",
+                        Toast.LENGTH_SHORT).show();
+
+                quiz.setText("48. I will love you until the rivers run dry.");
+
+                A1.setText("Simile");
+                A2.setText("Metaphor");
+                A3.setText("Personification");
+                A4.setText("Hyperbole");
+
+
+
+                scoreTxt.setText(score+0+"");
+
+            }
+        }
+
+        if (n == 47) {
+            if (answerContent.equals("Hyperbole")) {
+                Toast.makeText(getApplicationContext(), "Correct",
+                        Toast.LENGTH_SHORT).show();
+                quiz.setText("49. The wind whispers secrets of better days");
+
+                A1.setText("Simile");
+                A2.setText("Metaphor");
+                A3.setText("Personification");
+                A4.setText("Hyperbole");
+
+
+                scoreTxt.setText(score + 1 + "");
+
+            } else {
+                //incorrect
+                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is Hyperbole.",
+                        Toast.LENGTH_SHORT).show();
+
+                quiz.setText("49. The wind whispers secrets of better days");
+
+                A1.setText("Simile");
+                A2.setText("Metaphor");
+                A3.setText("Personification");
+                A4.setText("Hyperbole");
+
+
+
+                scoreTxt.setText(score+0+"");
+
+            }
+        }
+
+
+        if (n == 48) {
+            if (answerContent.equals("Personification")) {
+                Toast.makeText(getApplicationContext(), "Correct",
+                        Toast.LENGTH_SHORT).show();
+                quiz.setText("50. He guards like a leach.");
+
+                A1.setText("Simile");
+                A2.setText("Metaphor");
+                A3.setText("Personification");
+                A4.setText("Hyperbole");
+
+
+                scoreTxt.setText(score + 1 + "");
+
+            } else {
+                //incorrect
+                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is Personification.",
+                        Toast.LENGTH_SHORT).show();
+
+                quiz.setText("50. He guards like a leach.");
+
+                A1.setText("Simile");
+                A2.setText("Metaphor");
+                A3.setText("Personification");
+                A4.setText("Hyperbole");
+
+
+
+                scoreTxt.setText(score+0+"");
+
+            }
+        }
+
+
+
+
+        if (n == 49) {
             Button endbutton =(Button) findViewById(R.id.gohome);
             Button e1 =(Button) findViewById(R.id.b0);
             Button e2 =(Button) findViewById(R.id.b1);
             Button e4 =(Button) findViewById(R.id.b2);
             Button e5 =(Button) findViewById(R.id.b3);
             Button e3 =(Button) findViewById(R.id.erase);
-            if (answerContent.equals("have")){
+            if (answerContent.equals("Simile")){
                 scoreTxt.setText(score + 1 + "");
 
                 Toast.makeText(getApplicationContext(), "Correct",
@@ -1331,7 +1797,7 @@ public class English extends Activity {
 
                 scoreTxt.setText(score + 0 + "");
                 //incorrect
-                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is have",
+                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is Simile.",
                         Toast.LENGTH_SHORT).show();
 
                 endbutton.setEnabled(false);
@@ -1350,7 +1816,7 @@ public class English extends Activity {
             }
         }
 
-        if (n == 10) {
+        if (n == 50) {
 
             scoreTxt.setText(score + 0 + "");
 
