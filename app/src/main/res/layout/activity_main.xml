@@ -15,38 +15,42 @@
         android:layout_height="wrap_content"
         android:text="ENGLISH"
         android:id="@+id/buttonEng"
-        android:layout_alignParentTop="true"
+        android:onClick="mEnglish"
+        android:layout_above="@+id/buttonSci"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="177dp"
-        android:onClick="mEnglish" />
+        android:layout_marginBottom="23dp"
+        android:layout_marginTop="150dp" />
 
     <Button
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:text="SCIENCE"
         android:id="@+id/buttonSci"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="29dp"
-        android:onClick="mScience" />
+        android:onClick="mScience"
+        android:layout_above="@+id/buttonHek"
+        android:layout_alignLeft="@+id/buttonEng"
+        android:layout_alignStart="@+id/buttonEng"
+        android:layout_marginBottom="23dp" />
 
     <Button
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:text="HEKASI"
         android:id="@+id/buttonHek"
-        android:layout_below="@+id/buttonSci"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="29dp"
-        android:onClick="mHekasi" />
+        android:onClick="mHekasi"
+        android:layout_marginBottom="23dp"
+        android:layout_above="@+id/buttonInt"
+        android:layout_alignLeft="@+id/buttonSci"
+        android:layout_alignStart="@+id/buttonSci" />
 
     <Button
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:text="INSTRUNCTIONS"
         android:id="@+id/buttonInt"
-        android:layout_below="@+id/buttonHek"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="29dp"
-        android:onClick="mInstruct" />
+        android:onClick="mInstruct"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/buttonHek"
+        android:layout_alignStart="@+id/buttonHek"
+        android:layout_marginBottom="23dp" />
 </RelativeLayout>
