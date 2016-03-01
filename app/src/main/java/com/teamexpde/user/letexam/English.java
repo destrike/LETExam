@@ -378,7 +378,7 @@ public class English extends Activity {
             if (answerContent.equals("causes")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("Measles _____ all over the body.");
+                quiz.setText("9. Measles _____ all over the body.");
 
                 A1.setText("spreads");
                 A2.setText("spread");
@@ -393,7 +393,7 @@ public class English extends Activity {
                 Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is causes",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("Measles _____ all over the body.");
+                quiz.setText("9. Measles _____ all over the body.");
 
                 A1.setText("spreads");
                 A2.setText("spread");
@@ -610,7 +610,7 @@ public class English extends Activity {
             if (answerContent.equals("mumps")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("16. ..Baking.. delicious pastries is her favorite past time.");
+                quiz.setText("16. \"Baking\" delicious pastries is her favorite past time.");
 
                 A1.setText("subject");
                 A2.setText("direct object");
@@ -625,7 +625,7 @@ public class English extends Activity {
                 Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is mumps",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("16. ..Baking.. delicious pastries is her favorite past time.");
+                quiz.setText("16. \"Baking\" delicious pastries is her favorite past time.");
 
                 A1.setText("subject");
                 A2.setText("direct object");
@@ -643,7 +643,7 @@ public class English extends Activity {
             if (answerContent.equals("subject")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("17. The preacher talks about ..praying.. without ceasing");
+                quiz.setText("17. The preacher talks about \"praying\" without ceasing");
 
                 A1.setText("subject");
                 A2.setText("direct object");
@@ -658,7 +658,7 @@ public class English extends Activity {
                 Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is subject",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("17. The preacher talks about ..praying.. without ceasing");
+                quiz.setText("17. The preacher talks about \"praying\" without ceasing");
 
                 A1.setText("subject");
                 A2.setText("direct object");
@@ -676,7 +676,7 @@ public class English extends Activity {
             if (answerContent.equals("object of the preposition")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("18. I certainly love ..eating.. different kinds of chocolates.");
+                quiz.setText("18. I certainly love \"eating\" different kinds of chocolates.");
 
                 A1.setText("subject");
                 A2.setText("direct object");
@@ -691,7 +691,7 @@ public class English extends Activity {
                 Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is object of the preposition",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("18. I certainly love ..eating.. different kinds of chocolates.");
+                quiz.setText("18. I certainly love \"eating\" different kinds of chocolates.");
 
                 A1.setText("subject");
                 A2.setText("direct object");
@@ -709,7 +709,7 @@ public class English extends Activity {
             if (answerContent.equals("direct object")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("19. My mother never considered ..cooking.. a tedious task.");
+                quiz.setText("19. My mother never considered \"cooking\" a tedious task.");
 
                 A1.setText("subject");
                 A2.setText("direct object");
@@ -724,7 +724,7 @@ public class English extends Activity {
                 Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is direct object",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("19. My mother never considered ..cooking.. a tedious task.");
+                quiz.setText("19. My mother never considered \"cooking\" a tedious task.");
 
                 A1.setText("subject");
                 A2.setText("direct object");
@@ -742,7 +742,7 @@ public class English extends Activity {
             if (answerContent.equals("object of the preposition")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("20. ..Playing.. computer games doesn't help students to learn.");
+                quiz.setText("20. \"Playing\" computer games doesn't help students to learn.");
 
                 A1.setText("subject");
                 A2.setText("direct object");
@@ -757,7 +757,7 @@ public class English extends Activity {
                 Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is object of the preposition",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("20. ..Playing.. computer games doesn't help students to learn.");
+                quiz.setText("20. \"Playing\" computer games doesn't help students to learn.");
 
                 A1.setText("subject");
                 A2.setText("direct object");
@@ -775,7 +775,7 @@ public class English extends Activity {
             if (answerContent.equals("subject")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("21. He congratulated his friend for ..winning.. first place in Quiz Bee.");
+                quiz.setText("21. He congratulated his friend for \"winning\" first place in Quiz Bee.");
 
                 A1.setText("subject");
                 A2.setText("direct object");
@@ -790,7 +790,7 @@ public class English extends Activity {
                 Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is subject",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("21. He congratulated his friend for ..winning.. first place in Quiz Bee.");
+                quiz.setText("21. He congratulated his friend for \"winning\" first place in Quiz Bee.");
 
                 A1.setText("subject");
                 A2.setText("direct object");
@@ -808,7 +808,7 @@ public class English extends Activity {
             if (answerContent.equals("object of the preposition")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("22. ..Repair.. the bridges is the priority of the Department of Public Works and Highway after the strong typhoon.");
+                quiz.setText("22. \"Repair\" the bridges is the priority of the Department of Public Works and Highway after the strong typhoon.");
 
                 A1.setText("subject");
                 A2.setText("direct object");
@@ -823,7 +823,7 @@ public class English extends Activity {
                 Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is object of the preposition",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("22. ..Repair.. the bridges is the priority of the Department of Public Works and Highway after the strong typhoon.");
+                quiz.setText("22. \"Repair\" the bridges is the priority of the Department of Public Works and Highway after the strong typhoon.");
 
                 A1.setText("subject");
                 A2.setText("direct object");
@@ -841,7 +841,7 @@ public class English extends Activity {
             if (answerContent.equals("subject")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("23. The Department of Health provides ..outstand.. health service for the filipino people.");
+                quiz.setText("23. The Department of Health provides \"outstand\" health service for the filipino people.");
 
                 A1.setText("subject");
                 A2.setText("direct object");
@@ -856,7 +856,7 @@ public class English extends Activity {
                 Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is subject",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("23. The Department of Health provides ..outstand.. health service for the filipino people.");
+                quiz.setText("23. The Department of Health provides \"outstand\" health service for the filipino people.");
 
                 A1.setText("subject");
                 A2.setText("direct object");
@@ -874,7 +874,7 @@ public class English extends Activity {
             if (answerContent.equals("direct object")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("24. ..Educate.. an individual gives him a good future.");
+                quiz.setText("24. \"Educate\" an individual gives him a good future.");
 
                 A1.setText("subject");
                 A2.setText("direct object");
@@ -889,7 +889,7 @@ public class English extends Activity {
                 Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is direct object",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("24. ..Educate.. an individual gives him a good future.");
+                quiz.setText("24. \"Educate\" an individual gives him a good future.");
 
                 A1.setText("subject");
                 A2.setText("direct object");
@@ -908,7 +908,7 @@ public class English extends Activity {
             if (answerContent.equals("subject")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("25. The Department of Tourism considers ..promote.. the Philippine products in Europe a big success.");
+                quiz.setText("25. The Department of Tourism considers \"promote\" the Philippine products in Europe a big success.");
 
                 A1.setText("subject");
                 A2.setText("direct object");
@@ -923,7 +923,7 @@ public class English extends Activity {
                 Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is subject",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("25. The Department of Tourism considers ..promote.. the Philippine products in Europe a big success.");
+                quiz.setText("25. The Department of Tourism considers \"promote\" the Philippine products in Europe a big success.");
 
                 A1.setText("subject");
                 A2.setText("direct object");
