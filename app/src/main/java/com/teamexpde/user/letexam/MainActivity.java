@@ -20,4 +20,10 @@ public class MainActivity extends Activity {
         finish();
     }
 
+    public void mScience(View view) {
+        Intent plays = new Intent (this, Science.class);
+        startActivity(plays);
+        finish();
+    }
+
 }
