@@ -1167,12 +1167,12 @@ public class Science extends Activity {
             if (answerContent.equals("Saturn")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("33. Police officers must have gone _____ rigorous trainings before they are sent to capture bad elements.");
+                quiz.setText("33. Thermometer is related to degree in the same way as clock is related to");
 
-                A1.setText("across");
-                A2.setText("before");
-                A3.setText("during");
-                A4.setText("through");
+                A1.setText("Wall");
+                A2.setText("Tower");
+                A3.setText("Hour");
+                A4.setText("Cock");
 
 
                 scoreTxt.setText(score + 1 + "");
@@ -1182,12 +1182,12 @@ public class Science extends Activity {
                 Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is Saturn",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("33. Police officers must have gone _____ rigorous trainings before they are sent to capture bad elements.");
+                quiz.setText("33. Thermometer is related to degree in the same way as clock is related to");
 
-                A1.setText("across");
-                A2.setText("before");
-                A3.setText("during");
-                A4.setText("through");
+                A1.setText("Wall");
+                A2.setText("Tower");
+                A3.setText("Hour");
+                A4.setText("Cock");
 
 
 
@@ -1197,30 +1197,30 @@ public class Science extends Activity {
         }
 
         if (n == 32) {
-            if (answerContent.equals("through")) {
+            if (answerContent.equals("Hour")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("34. It is not safe to run _____ the streets espicially along busy roads.");
+                quiz.setText("34. There are rings around which of the following?");
 
-                A1.setText("across");
-                A2.setText("before");
-                A3.setText("during");
-                A4.setText("through");
+                A1.setText("Uranus");
+                A2.setText("Mars");
+                A3.setText("Jupiter");
+                A4.setText("Saturn");
 
 
                 scoreTxt.setText(score + 1 + "");
 
             } else {
                 //incorrect
-                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is through",
+                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is Hour",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("34. It is not safe to run _____ the streets espicially along busy roads.");
+                quiz.setText("34. There are rings around which of the following?");
 
-                A1.setText("across");
-                A2.setText("before");
-                A3.setText("during");
-                A4.setText("through");
+                A1.setText("Uranus");
+                A2.setText("Mars");
+                A3.setText("Jupiter");
+                A4.setText("Saturn");
 
 
 
@@ -1230,30 +1230,30 @@ public class Science extends Activity {
         }
 
         if (n == 33) {
-            if (answerContent.equals("across")) {
+            if (answerContent.equals("Saturn")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("35. Cedric became proud when he was chosen as the valuable basketbal player.");
+                quiz.setText("35. The theory which advocates that living beings can arise only from other living beings is termed");
 
-                A1.setText("simple sentence");
-                A2.setText("compound sentence");
-                A3.setText("complex sentence");
-                A4.setText("none of the above");
+                A1.setText("Bio-genesis");
+                A2.setText("Abiogenesis");
+                A3.setText("Catastrophism");
+                A4.setText("Cosmozoic");
 
 
                 scoreTxt.setText(score + 1 + "");
 
             } else {
                 //incorrect
-                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is across",
+                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is Saturn",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("35. Cedric became proud when he was chosen as the valuable basketbal player.");
+                quiz.setText("35. The theory which advocates that living beings can arise only from other living beings is termed");
 
-                A1.setText("simple sentence");
-                A2.setText("compound sentence");
-                A3.setText("complex sentence");
-                A4.setText("none of the above");
+                A1.setText("Bio-genesis");
+                A2.setText("Abiogenesis");
+                A3.setText("Catastrophism");
+                A4.setText("Cosmozoic");
 
 
 
@@ -1264,30 +1264,30 @@ public class Science extends Activity {
 
 
         if (n == 34) {
-            if (answerContent.equals("complex sentence")) {
+            if (answerContent.equals("Bio-genesis")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("36. He is an active and cheerful boy.");
+                quiz.setText("36. There are how many strains of H & N proteins that cumulatively make up the HN breed of flu virus (eg. being the presently famous H1N1 virus)");
 
-                A1.setText("simple sentence");
-                A2.setText("compound sentence");
-                A3.setText("complex sentence");
-                A4.setText("none of the above");
+                A1.setText("16 & 9 respectively");
+                A2.setText("9 & 16 respectively");
+                A3.setText("16 & 16 respectively");
+                A4.setText("9 & 9 respectively");
 
 
                 scoreTxt.setText(score + 1 + "");
 
             } else {
                 //incorrect
-                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is complex sentence",
+                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is Bio-genesis",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("36. He is an active and cheerful boy.");
+                quiz.setText("36. There are how many strains of H & N proteins that cumulatively make up the HN breed of flu virus (eg. being the presently famous H1N1 virus)");
 
-                A1.setText("simple sentence");
-                A2.setText("compound sentence");
-                A3.setText("complex sentence");
-                A4.setText("none of the above");
+                A1.setText("16 & 9 respectively");
+                A2.setText("9 & 16 respectively");
+                A3.setText("16 & 16 respectively");
+                A4.setText("9 & 9 respectively");
 
 
 
@@ -1298,30 +1298,30 @@ public class Science extends Activity {
 
 
         if (n == 35) {
-            if (answerContent.equals("simple sentence")) {
+            if (answerContent.equals("16 & 9 respectively")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("37. He is active in sports and he can play a musical instrument too.");
+                quiz.setText("37. The wonder pigment chlorophyll is present in");
 
-                A1.setText("simple sentence");
-                A2.setText("compound sentence");
-                A3.setText("complex sentence");
-                A4.setText("none of the above");
+                A1.setText("Mitochondria");
+                A2.setText("Centrosomes");
+                A3.setText("Quantosomes");
+                A4.setText("Lysosomes");
 
 
                 scoreTxt.setText(score + 1 + "");
 
             } else {
                 //incorrect
-                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is simple sentence",
+                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is 16 & 9 respectively",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("37. He is active in sports and he can play a musical instrument too.");
+                quiz.setText("37. The wonder pigment chlorophyll is present in");
 
-                A1.setText("simple sentence");
-                A2.setText("compound sentence");
-                A3.setText("complex sentence");
-                A4.setText("none of the above");
+                A1.setText("Mitochondria");
+                A2.setText("Centrosomes");
+                A3.setText("Quantosomes");
+                A4.setText("Lysosomes");
 
 
 
@@ -1331,30 +1331,30 @@ public class Science extends Activity {
         }
 
         if (n == 36) {
-            if (answerContent.equals("complex sentence")) {
+            if (answerContent.equals("Quantosomes")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("38. Daang hari Elementary School is located beside the PTRI compound.");
+                quiz.setText("38. The vestiges of hind limbs are present in");
 
-                A1.setText("simple sentence");
-                A2.setText("compound sentence");
-                A3.setText("complex sentence");
-                A4.setText("none of the above");
+                A1.setText("Cobra");
+                A2.setText("Sea snake");
+                A3.setText("Krait");
+                A4.setText("Python");
 
 
                 scoreTxt.setText(score + 1 + "");
 
             } else {
                 //incorrect
-                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is complex sentence",
+                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is Quantosomes",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("38. Daang hari Elementary School is located beside the PTRI compound.");
+                quiz.setText("38. The vestiges of hind limbs are present in");
 
-                A1.setText("simple sentence");
-                A2.setText("compound sentence");
-                A3.setText("complex sentence");
-                A4.setText("none of the above");
+                A1.setText("Cobra");
+                A2.setText("Sea snake");
+                A3.setText("Krait");
+                A4.setText("Python");
 
 
 
@@ -1364,30 +1364,30 @@ public class Science extends Activity {
         }
 
         if (n == 37) {
-            if (answerContent.equals("simple sentence")) {
+            if (answerContent.equals("Python")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("39. My parents are both busy at work but they find time to attend school meetings");
+                quiz.setText("39. The use of which of the following devices has given the modern biologist a better insight into the internal structure of cells");
 
-                A1.setText("simple sentence");
-                A2.setText("compound sentence");
-                A3.setText("complex sentence");
-                A4.setText("none of the above");
+                A1.setText("Super Computer");
+                A2.setText("Electron microscope");
+                A3.setText("Spectrophotometer");
+                A4.setText("Ultracentrifuge");
 
 
                 scoreTxt.setText(score + 1 + "");
 
             } else {
                 //incorrect
-                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is simple sentence",
+                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is Python",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("39. My parents are both busy at work but they find time to attend school meetings");
+                quiz.setText("39. The use of which of the following devices has given the modern biologist a better insight into the internal structure of cells");
 
-                A1.setText("simple sentence");
-                A2.setText("compound sentence");
-                A3.setText("complex sentence");
-                A4.setText("none of the above");
+                A1.setText("Super Computer");
+                A2.setText("Electron microscope");
+                A3.setText("Spectrophotometer");
+                A4.setText("Ultracentrifuge");
 
 
 
@@ -1397,30 +1397,30 @@ public class Science extends Activity {
         }
 
         if (n == 38) {
-            if (answerContent.equals("complex sentence")) {
+            if (answerContent.equals("Electron microscope")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("40. The teacher said, \"Class, pass yout assignments\".");
+                quiz.setText("40. The two diseases that most often kill AIDS victims are: 1.Kaposi's sarcoma, 2.Lymphangioma, 3.Pneumocystis carinii pneumonia, 4.Systemic Lupus erythromatosus");
 
-                A1.setText("The teacher told the class to pass their assignments");
-                A2.setText("The teacher asked the class to pass their assignments");
-                A3.setText("The teacher asked the class if they passed their assignments");
-                A4.setText("The teacher requested the class if they passed their assignments");
+                A1.setText("1 and 2");
+                A2.setText("2 and 3");
+                A3.setText("1 and 3");
+                A4.setText("3 and 4");
 
 
                 scoreTxt.setText(score + 1 + "");
 
             } else {
                 //incorrect
-                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is complex sentence",
+                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is Electron microscope",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("40. The teacher said, \"Class, pass yout assignments\".");
+                quiz.setText("40. The two diseases that most often kill AIDS victims are: 1.Kaposi's sarcoma, 2.Lymphangioma, 3.Pneumocystis carinii pneumonia, 4.Systemic Lupus erythromatosus");
 
-                A1.setText("The teacher told the class to pass their assignments");
-                A2.setText("The teacher asked the class to pass their assignments");
-                A3.setText("The teacher asked the class if they passed their assignments");
-                A4.setText("The teacher requested the class if they passed their assignments");
+                A1.setText("1 and 2");
+                A2.setText("2 and 3");
+                A3.setText("1 and 3");
+                A4.setText("3 and 4");
 
 
 
@@ -1430,30 +1430,30 @@ public class Science extends Activity {
         }
 
         if (n == 39) {
-            if (answerContent.equals("The teacher told the class to pass their assignments")) {
+            if (answerContent.equals("1 and 3")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("41. Mother said, \"Honey, please fix the roof\".");
+                quiz.setText("41. The solar eclipse occurs when");
 
-                A1.setText("Mother told Father to fix the roof");
-                A2.setText("Mother asked Father if he can fix the roof");
-                A3.setText("Mother requested Father to fix the roof");
-                A4.setText("Mother commanded Father to fix the roof");
+                A1.setText("the sun comes in between the moon and the earth");
+                A2.setText("the earth comes in the between the sun and the moon");
+                A3.setText("the moon comes in between the sun and the earth");
+                A4.setText("None of the above");
 
 
                 scoreTxt.setText(score + 1 + "");
 
             } else {
                 //incorrect
-                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is The teacher told the class to pass their assignments",
+                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is 1 and 3",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("41. Mother said, \"Honey, please fix the roof\".");
+                quiz.setText("41. The solar eclipse occurs when");
 
-                A1.setText("Mother told Father to fix the roof");
-                A2.setText("Mother asked Father if he can fix the roof");
-                A3.setText("Mother requested Father to fix the roof");
-                A4.setText("Mother commanded Father to fix the roof");
+                A1.setText("the sun comes in between the moon and the earth");
+                A2.setText("the earth comes in the between the sun and the moon");
+                A3.setText("the moon comes in between the sun and the earth");
+                A4.setText("None of the above");
 
 
 
@@ -1463,30 +1463,30 @@ public class Science extends Activity {
         }
 
         if (n == 40) {
-            if (answerContent.equals("Mother requested Father to fix the roof")) {
+            if (answerContent.equals("the moon comes in between the sun and the earth")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("42. \"Denzel, will you carry my bags upstairs\", the teacher said.");
+                quiz.setText("42. The smallest functional and structural unit of kidney is called as");
 
-                A1.setText("The teacher asked Denzel if he will carry the bag upstairs");
-                A2.setText("The teacher requested Denzel to carry her bag upstairs");
-                A3.setText("The teacher commanded Denzel to carry her bag upstairs");
-                A4.setText("The teacher told Denzel to carry her bag upstairs");
+                A1.setText("Neuron");
+                A2.setText("Nephron");
+                A3.setText("Granulocyte");
+                A4.setText("Reticulocyte");
 
 
                 scoreTxt.setText(score + 1 + "");
 
             } else {
                 //incorrect
-                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is Mother requested Father to fix the roof",
+                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is the moon comes in between the sun and the earth",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("42. \"Denzel, will you carry my bags upstairs\", the teacher said.");
+                quiz.setText("42. The smallest functional and structural unit of kidney is called as");
 
-                A1.setText("The teacher asked Denzel if he will carry the bag upstairs");
-                A2.setText("The teacher requested Denzel to carry her bag upstairs");
-                A3.setText("The teacher commanded Denzel to carry her bag upstairs");
-                A4.setText("The teacher told Denzel to carry her bag upstairs");
+                A1.setText("Neuron");
+                A2.setText("Nephron");
+                A3.setText("Granulocyte");
+                A4.setText("Reticulocyte");
 
 
 
@@ -1497,30 +1497,30 @@ public class Science extends Activity {
 
 
         if (n == 41) {
-            if (answerContent.equals("The teacher requested Denzel to carry her bag upstairs")) {
+            if (answerContent.equals("Nephron")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("43. Dexter said, \"I am an only child\".");
+                quiz.setText("43. The removal of top soil by water or wind is called");
 
-                A1.setText("Dexter told me that he is an only child.");
-                A2.setText("Dexter asked me if he is an only child.");
-                A3.setText("Dexter said that he is the only child.");
-                A4.setText("Dexter commanded that he must be the only child");
+                A1.setText("Soil wash");
+                A2.setText("Soil erosion");
+                A3.setText("Soil creep");
+                A4.setText("Silting of soil");
 
 
                 scoreTxt.setText(score + 1 + "");
 
             } else {
                 //incorrect
-                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is The teacher requested Denzel to carry her bag upstairs",
+                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is Nephron",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("43. Dexter said, \"I am an only child\".");
+                quiz.setText("43. The removal of top soil by water or wind is called");
 
-                A1.setText("Dexter told me that he is an only child.");
-                A2.setText("Dexter asked me if he is an only child.");
-                A3.setText("Dexter said that he is the only child.");
-                A4.setText("Dexter commanded that he must be the only child");
+                A1.setText("Soil wash");
+                A2.setText("Soil erosion");
+                A3.setText("Soil creep");
+                A4.setText("Silting of soil");
 
 
 
@@ -1530,30 +1530,30 @@ public class Science extends Activity {
         }
 
         if (n == 42) {
-            if (answerContent.equals("Dexter said that he is the only child.")) {
+            if (answerContent.equals("Soil erosion")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("44. Grandma said,\" Five pesos used to buy a lot from the market\".");
+                quiz.setText("44. In a certain electronic circuit the output is positive if input 1 is positive and input 2 is zero. If both inputs are positive the output is zero. This is");
 
-                A1.setText("Grandma told me that five pesos used to buy a lot in the market");
-                A2.setText("Grandma said that five pesos used to buy a lot in the market.");
-                A3.setText("Grandma asked if five pesos used to buy a lot in the market.");
-                A4.setText("Gradma commanded that five pesos should a lot in the market.");
+                A1.setText("an AND circuit");
+                A2.setText("a NOR circuit");
+                A3.setText("an OR circuit");
+                A4.setText("a high-pass filter");
 
 
                 scoreTxt.setText(score + 1 + "");
 
             } else {
                 //incorrect
-                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is Dexter said that he is the only child.",
+                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is Soil erosion.",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("44. Grandma said,\" Five pesos used to buy a lot from the market\".");
+                quiz.setText("44. In a certain electronic circuit the output is positive if input 1 is positive and input 2 is zero. If both inputs are positive the output is zero. This is");
 
-                A1.setText("Grandma told me that five pesos used to buy a lot in the market");
-                A2.setText("Grandma said that five pesos used to buy a lot in the market.");
-                A3.setText("Grandma asked if five pesos used to buy a lot in the market.");
-                A4.setText("Gradma commanded that five pesos should a lot in the market.");
+                A1.setText("an AND circuit");
+                A2.setText("a NOR circuit");
+                A3.setText("an OR circuit");
+                A4.setText("a high-pass filter");
 
 
 
@@ -1563,30 +1563,30 @@ public class Science extends Activity {
         }
 
         if (n == 43) {
-            if (answerContent.equals("Grandma said that five pesos used to buy a lot in the market.")) {
+            if (answerContent.equals("an OR circuit")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("45. Cristian asked,\" Do you believe in ghost, Andre\"?");
+                quiz.setText("45. The speed of light with the rise in the temperature of the medium");
 
-                A1.setText("Cristian asked Andre if you believe in ghost.");
-                A2.setText("Cristian asked Andre if he believes in ghost.");
-                A3.setText("Cristian requested Andre to believe in ghost");
-                A4.setText("Cristian told Andre to belive in ghost.");
+                A1.setText("Increases");
+                A2.setText("Decreases");
+                A3.setText("Remains unaltered");
+                A4.setText("Drops sharply");
 
 
                 scoreTxt.setText(score + 1 + "");
 
             } else {
                 //incorrect
-                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is Grandma said that five pesos used to buy a lot in the market.",
+                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is an OR circuit",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("45. Cristian asked,\" Do you believe in ghost, Andre\"?");
+                quiz.setText("45. The speed of light with the rise in the temperature of the medium");
 
-                A1.setText("Cristian asked Andre if you believe in ghost.");
-                A2.setText("Cristian asked Andre if he believes in ghost.");
-                A3.setText("Cristian requested Andre to believe in ghost");
-                A4.setText("Cristian told Andre to belive in ghost.");
+                A1.setText("Increases");
+                A2.setText("Decreases");
+                A3.setText("Remains unaltered");
+                A4.setText("Drops sharply");
 
 
 
@@ -1596,30 +1596,30 @@ public class Science extends Activity {
         }
 
         if (n == 44) {
-            if (answerContent.equals("Cristian asked Andre if he believes in ghost.")) {
+            if (answerContent.equals("Remains unaltered")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("46. Danielle asked the clerk, \"Is your office open on Saturdays?\"");
+                quiz.setText("46. The Panda belongs to the same family as that of");
 
-                A1.setText("Danielle asked the clerk if their office is open on Saturdays?");
-                A2.setText("Danielle asked the clerk if their office is open on Saturdays?");
-                A3.setText("Danielle told the clerk to open their office on Saturdays.");
-                A4.setText("Danielle requested the clerk to open her office on Saturdays.");
+                A1.setText("Bear");
+                A2.setText("Cat");
+                A3.setText("Dog");
+                A4.setText("Rabbit");
 
 
                 scoreTxt.setText(score + 1 + "");
 
             } else {
                 //incorrect
-                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is Cristian asked Andre if he believes in ghost.",
+                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is Remains unaltered",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("46. Danielle asked the clerk, \"Is your office open on Saturdays?\"");
+                quiz.setText("46. The Panda belongs to the same family as that of");
 
-                A1.setText("Danielle asked the clerk if their office is open on Saturdays?");
-                A2.setText("Danielle asked the clerk if their office is open on Saturdays?");
-                A3.setText("Danielle told the clerk to open their office on Saturdays.");
-                A4.setText("Danielle requested the clerk to open her office on Saturdays.");
+                A1.setText("Bear");
+                A2.setText("Cat");
+                A3.setText("Dog");
+                A4.setText("Rabbit");
 
 
 
@@ -1630,30 +1630,30 @@ public class Science extends Activity {
 
 
         if (n == 45) {
-            if (answerContent.equals("Danielle asked the clerk if their office is open on Saturdays?")) {
+            if (answerContent.equals("Bear")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("47. Truly, that woman has a heart of gold");
+                quiz.setText("47. The oxide of Nitrogen used in medicine as anaesthetic is");
 
-                A1.setText("Simile");
-                A2.setText("Metaphor");
-                A3.setText("Personification");
-                A4.setText("Hyperbole");
+                A1.setText("Nitrogen dioxide");
+                A2.setText("Nitric oxide");
+                A3.setText("Nitrous oxide");
+                A4.setText("Nitrogen pentoxide");
 
 
                 scoreTxt.setText(score + 1 + "");
 
             } else {
                 //incorrect
-                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is Danielle asked the clerk if their office is open on Saturdays?.",
+                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is Bear",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("47. Truly, that woman has a heart of gold");
+                quiz.setText("47. The oxide of Nitrogen used in medicine as anaesthetic is");
 
-                A1.setText("Simile");
-                A2.setText("Metaphor");
-                A3.setText("Personification");
-                A4.setText("Hyperbole");
+                A1.setText("Nitrogen dioxide");
+                A2.setText("Nitric oxide");
+                A3.setText("Nitrous oxide");
+                A4.setText("Nitrogen pentoxide");
 
 
 
@@ -1663,30 +1663,30 @@ public class Science extends Activity {
         }
 
         if (n == 46) {
-            if (answerContent.equals("Metaphor")) {
+            if (answerContent.equals("Nitrogen pentoxide")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("48. I will love you until the rivers run dry.");
+                quiz.setText("48. The marine animal called dugong which is vulnerable to extinction is a/an ");
 
-                A1.setText("Simile");
-                A2.setText("Metaphor");
-                A3.setText("Personification");
-                A4.setText("Hyperbole");
+                A1.setText("Amphibian");
+                A2.setText("Bony fish");
+                A3.setText("Shark");
+                A4.setText("Mammal");
 
 
                 scoreTxt.setText(score + 1 + "");
 
             } else {
                 //incorrect
-                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is Metaphor.",
+                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is Nitrogen pentoxide.",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("48. I will love you until the rivers run dry.");
+                quiz.setText("48. The marine animal called dugong which is vulnerable to extinction is a/an ");
 
-                A1.setText("Simile");
-                A2.setText("Metaphor");
-                A3.setText("Personification");
-                A4.setText("Hyperbole");
+                A1.setText("Amphibian");
+                A2.setText("Bony fish");
+                A3.setText("Shark");
+                A4.setText("Mammal");
 
 
 
@@ -1696,30 +1696,30 @@ public class Science extends Activity {
         }
 
         if (n == 47) {
-            if (answerContent.equals("Hyperbole")) {
+            if (answerContent.equals("Amphibian")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("49. The wind whispers secrets of better days");
+                quiz.setText("49. The intencity of Earthquakes is measured on");
 
-                A1.setText("Simile");
-                A2.setText("Metaphor");
-                A3.setText("Personification");
-                A4.setText("Hyperbole");
+                A1.setText("Richter scale");
+                A2.setText("Secant scale");
+                A3.setText("Mercalli scale");
+                A4.setText("Beaufort scale");
 
 
                 scoreTxt.setText(score + 1 + "");
 
             } else {
                 //incorrect
-                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is Hyperbole.",
+                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is Amphibian.",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("49. The wind whispers secrets of better days");
+                quiz.setText("49. The intencity of Earthquakes is measured on");
 
-                A1.setText("Simile");
-                A2.setText("Metaphor");
-                A3.setText("Personification");
-                A4.setText("Hyperbole");
+                A1.setText("Richter scale");
+                A2.setText("Secant scale");
+                A3.setText("Mercalli scale");
+                A4.setText("Beaufort scale");
 
 
 
@@ -1730,30 +1730,30 @@ public class Science extends Activity {
 
 
         if (n == 48) {
-            if (answerContent.equals("Personification")) {
+            if (answerContent.equals("Richter scale")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("50. He guards like a leach.");
+                quiz.setText("50. The hardest substance available on earth is");
 
-                A1.setText("Simile");
-                A2.setText("Metaphor");
-                A3.setText("Personification");
-                A4.setText("Hyperbole");
+                A1.setText("Platinum");
+                A2.setText("Diamond");
+                A3.setText("Quartz");
+                A4.setText("Gold");
 
 
                 scoreTxt.setText(score + 1 + "");
 
             } else {
                 //incorrect
-                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is Personification.",
+                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is Richter scale.",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("50. He guards like a leach.");
+                quiz.setText("50. The hardest substance available on earth is");
 
-                A1.setText("Simile");
-                A2.setText("Metaphor");
-                A3.setText("Personification");
-                A4.setText("Hyperbole");
+                A1.setText("Platinum");
+                A2.setText("Diamond");
+                A3.setText("Quartz");
+                A4.setText("Gold");
 
 
 
@@ -1772,7 +1772,7 @@ public class Science extends Activity {
             Button e4 =(Button) findViewById(R.id.b2);
             Button e5 =(Button) findViewById(R.id.b3);
             Button e3 =(Button) findViewById(R.id.erase);
-            if (answerContent.equals("Simile")){
+            if (answerContent.equals("Platinum")){
                 scoreTxt.setText(score + 1 + "");
 
                 Toast.makeText(getApplicationContext(), "Correct",
@@ -1790,7 +1790,7 @@ public class Science extends Activity {
 
                 scoreTxt.setText(score + 0 + "");
                 //incorrect
-                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is Simile.",
+                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is Platinum.",
                         Toast.LENGTH_SHORT).show();
 
                 endbutton.setEnabled(false);
