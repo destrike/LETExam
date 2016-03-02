@@ -27,7 +27,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".English" />
-        <activity android:name=".Science"></activity>
+        <activity android:name=".Science" />
+        <activity
+            android:name=".Hekasi"
+            android:label="@string/title_activity_hekasi"></activity>
     </application>
 
 </manifest>

@@ -26,4 +26,10 @@ public class MainActivity extends Activity {
         finish();
     }
 
+    public void mHekasi(View view) {
+        Intent plays = new Intent (this, Hekasi.class);
+        startActivity(plays);
+        finish();
+    }
+
 }
