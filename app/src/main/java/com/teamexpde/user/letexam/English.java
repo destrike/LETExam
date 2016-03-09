@@ -13,6 +13,10 @@ import android.view.View.OnClickListener;
 import android.widget.ImageView;
 import android.widget.TextView;
 import java.lang.String;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -31,6 +35,7 @@ public class English extends Activity {
     TextView quiz;
     TextView output;
     final Context context= this;
+    int qid=0;
 
 
 
@@ -107,7 +112,7 @@ public class English extends Activity {
                 /*case R.id.submit1: dothis();
                     break;*/
                 case R.id.submit1: dothis();
-                    Scr.setText("0");
+                    Scr.setText(" ");
                     break;
                 default: String numb= ((Button) v).getText().toString();
                     getKeyboard(numb);
@@ -131,6 +136,7 @@ public class English extends Activity {
         Button A2 =(Button) findViewById(R.id.b1);
         Button A3 =(Button) findViewById(R.id.b2);
         Button A4 =(Button) findViewById(R.id.b3);
+
 
 
 
@@ -1838,6 +1844,42 @@ public class English extends Activity {
 
         }
 
+    }
+
+    private void randomizer() {
+        //Randomizer
+
+        Button A1 =(Button) findViewById(R.id.b0);
+        Button A2 =(Button) findViewById(R.id.b1);
+        Button A3 =(Button) findViewById(R.id.b2);
+        Button A4 =(Button) findViewById(R.id.b3);
+
+        String[] choiced = new String[4];
+        choiced[0] = A1.getText().toString();
+        choiced[1] = A2.getText().toString();
+        choiced[2] = A3.getText().toString();
+        choiced[3] = A4.getText().toString();
+        qid++;
+
+        List<String> choices = new ArrayList<String>();
+        choices.add(choiced[0]);
+        choices.add(choiced[1]);
+        choices.add(choiced[2]);
+        choices.add(choiced[4]);
+
+
+        // Shuffle the collection
+        Collections.shuffle(choices);
+
+        List<Button> buttons = new ArrayList<Button>();
+        buttons.add((Button)findViewById(R.id.b0));
+        buttons.add((Button)findViewById(R.id.b1));
+        buttons.add((Button)findViewById(R.id.b2));
+        buttons.add((Button)findViewById(R.id.b3));
+
+        for (int i = 0; i < choices.size(); i++) {
+            buttons.get(i).setText(choices.get(i));
+        }
     }
 
 
