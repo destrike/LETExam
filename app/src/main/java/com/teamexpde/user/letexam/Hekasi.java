@@ -128,30 +128,30 @@ public class Hekasi extends Activity {
 
 
         if (n == 0) {
-            if (answerContent.equals("butterflies")) {
+            if (answerContent.equals("sa Cuba")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("2. Our _____ need love and guidance.");
+                quiz.setText("2. Bakit pumanig ang mga Amerikano sa bansang Cuba noong panahon ng digmaang Amerikano-Kastila?");
 
-                A1.setText("grandparent");
-                A2.setText("garnd-parent");
-                A3.setText("grand-parents");
-                A4.setText("grandparents");
+                A1.setText("upang mapangalagaan ang kanilang mga puhunan");
+                A2.setText("upang hindi sila guluhin ng mga Cubano sakaling gumanti ang mga ito");
+                A3.setText("upang lumawak ang kanilang nasasakupan");
+                A4.setText("upang lumakas ang kanilang pwersang military");
 
 
                 scoreTxt.setText(score+1+"");
 
             } else {
                 //incorrect
-                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is butterflies",
+                Toast.makeText(getApplicationContext(), "Wrong, Tamang sagot ay sa Cuba",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("2. Our _____ need love and guidance.");
+                quiz.setText("2. Bakit pumanig ang mga Amerikano sa bansang Cuba noong panahon ng digmaang Amerikano-Kastila?");
 
-                A1.setText("grandparent");
-                A2.setText("garnd-parent");
-                A3.setText("grand-parents");
-                A4.setText("grandparents");
+                A1.setText("upang mapangalagaan ang kanilang mga puhunan");
+                A2.setText("upang hindi sila guluhin ng mga Cubano sakaling gumanti ang mga ito");
+                A3.setText("upang lumawak ang kanilang nasasakupan");
+                A4.setText("upang lumakas ang kanilang pwersang military");
 
 
 
@@ -162,30 +162,30 @@ public class Hekasi extends Activity {
 
 
         if (n == 1) {
-            if (answerContent.equals("grandparents")) {
+            if (answerContent.equals("upang mapangalagaan ang kanilang mga puhunan")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("3. I love eating _____");
+                quiz.setText("3. Sa digmaang Amerikano-Kastila, isinara ang buong Maynila upang pigilan ang pagpasok ng anumang bagay at ng sinumang pangkat o grupo ng anumang samahan na tinawag na _____.");
 
-                A1.setText("strawberries");
-                A2.setText("strawberrys");
-                A3.setText("straw-berry");
-                A4.setText("straw-berries");
+                A1.setText("apartheid");
+                A2.setText("blockade");
+                A3.setText("cold war");
+                A4.setText("parity rights");
 
 
                 scoreTxt.setText(score+1+"");
 
             } else {
                 //incorrect
-                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is grandparents",
+                Toast.makeText(getApplicationContext(), "Wrong, Tamang sagot ay upang mapangalagaan ang kanilang mga puhunan",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("3. I love eating _____");
+                quiz.setText("3. Sa digmaang Amerikano-Kastila, isinara ang buong Maynila upang pigilan ang pagpasok ng anumang bagay at ng sinumang pangkat o grupo ng anumang samahan na tinawag na _____.");
 
-                A1.setText("strawberries");
-                A2.setText("strawberrys");
-                A3.setText("straw-berry");
-                A4.setText("straw-berries");
+                A1.setText("apartheid");
+                A2.setText("blockade");
+                A3.setText("cold war");
+                A4.setText("parity rights");
 
 
 
@@ -196,30 +196,30 @@ public class Hekasi extends Activity {
 
 
         if (n == 2) {
-            if (answerContent.equals("strawberries")) {
+            if (answerContent.equals("blockade")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("4. Mathematics _____ a child a chance to think well.");
+                quiz.setText("4. Bakit kaya hindi nakadalo sa deklarasyon ng kalayaan ng Pilipinas si Komandante George Dewey noon? Ano kaya ang maaaring dahilan nito?");
 
-                A1.setText("give");
-                A2.setText("gave");
-                A3.setText("gives");
-                A4.setText("giving");
+                A1.setText("Nagtungo siya sa bansang Cuba upang ipagpatuloy ang kaniyang naantalang layunin");
+                A2.setText("Nakipag-usap siya sa mga diplomatiko ng bansa upang pag-usapan ang mga usaping pangkapayapaan");
+                A3.setText("Nagkaroon siya ng kasunduan sa pagitan ng Espanya upang ipasa ang pamumuno sa bansa");
+                A4.setText("Nagtungo siya sa Malolos upang kausapin ang mga katipunero doon");
 
 
                 scoreTxt.setText(score+1+"");
 
             } else {
                 //incorrect
-                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is strawberries",
+                Toast.makeText(getApplicationContext(), "Wrong, Tamang sagot ay blockade",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("4. Mathematics _____ a child a chance to think well.");
+                quiz.setText("4. Bakit kaya hindi nakadalo sa deklarasyon ng kalayaan ng Pilipinas si Komandante George Dewey noon? Ano kaya ang maaaring dahilan nito?");
 
-                A1.setText("give");
-                A2.setText("gave");
-                A3.setText("gives");
-                A4.setText("giving");
+                A1.setText("Nagtungo siya sa bansang Cuba upang ipagpatuloy ang kaniyang naantalang layunin");
+                A2.setText("Nakipag-usap siya sa mga diplomatiko ng bansa upang pag-usapan ang mga usaping pangkapayapaan");
+                A3.setText("Nagkaroon siya ng kasunduan sa pagitan ng Espanya upang ipasa ang pamumuno sa bansa");
+                A4.setText("Nagtungo siya sa Malolos upang kausapin ang mga katipunero doon");
 
 
 
@@ -230,30 +230,30 @@ public class Hekasi extends Activity {
 
 
         if (n == 3) {
-            if (answerContent.equals("gives")) {
+            if (answerContent.equals("Nagkaroon siya ng kasunduan sa pagitan ng Espanya upang ipasa ang pamumuno sa bansa")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("5. Athletics _____ good for everyone's health");
+                quiz.setText("5. Ang mga sumusunod ay kabilang sa mahahalagang nagawa ng kongreso ng Malolos maliban sa isa.");
 
-                A1.setText("is");
-                A2.setText("was");
-                A3.setText("am");
-                A4.setText("are");
+                A1.setText("Pagpapatibay ng kalayaan ng Pilipinas noong Setyembre 29, 1878");
+                A2.setText("Pagpapahayag ng isang batas na nagpapautang para sa pamahalaan ng 20, 000, 000");
+                A3.setText("Pagtatatag ng Philippine Women's Red Cross Assosiacion");
+                A4.setText("Pagtatatag ng Pamantasan ng Panitikan ng Pilipinas");
 
 
                 scoreTxt.setText(score+1+"");
 
             } else {
                 //incorrect
-                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is gives",
+                Toast.makeText(getApplicationContext(), "Wrong, Tamang sagot ay Nagkaroon siya ng kasunduan sa pagitan ng Espanya upang ipasa ang pamumuno sa bansa",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("5. Athletics _____ good for everyone's health");
+                quiz.setText("5. Ang mga sumusunod ay kabilang sa mahahalagang nagawa ng kongreso ng Malolos maliban sa isa.");
 
-                A1.setText("is");
-                A2.setText("was");
-                A3.setText("am");
-                A4.setText("are");
+                A1.setText("Pagpapatibay ng kalayaan ng Pilipinas noong Setyembre 29, 1878");
+                A2.setText("Pagpapahayag ng isang batas na nagpapautang para sa pamahalaan ng 20, 000, 000");
+                A3.setText("Pagtatatag ng Philippine Women's Red Cross Assosiacion");
+                A4.setText("Pagtatatag ng Pamantasan ng Panitikan ng Pilipinas");
 
 
 
@@ -264,30 +264,30 @@ public class Hekasi extends Activity {
 
 
         if (n == 4) {
-            if (answerContent.equals("is")) {
+            if (answerContent.equals("Pagpapatibay ng kalayaan ng Pilipinas noong Setyembre 29, 1878")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("6.Billiards _____ become a popular game among filipinos.");
+                quiz.setText("6.Sa kauna-unahang pagkakataon, iwinagayway ang watawat ng Pilipinas kasabay ang pagtugtog ng Marcha Nacional Filipina. Anong banda ang tumugtog nito?");
 
-                A1.setText("had");
-                A2.setText("have");
-                A3.setText("has");
-                A4.setText("having");
+                A1.setText("San Francisco de Malabon");
+                A2.setText("San Agustin de Intramuros");
+                A3.setText("Banda Nacional de Filipina");
+                A4.setText("Banda de Emilio Aguinaldo");
 
 
                 scoreTxt.setText(score+1+"");
 
             } else {
                 //incorrect
-                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is is",
+                Toast.makeText(getApplicationContext(), "Wrong, Tamang sagot ay Pagpapatibay ng kalayaan ng Pilipinas noong Setyembre 29, 1878",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("6.Billiards _____ become a popular game among filipinos.");
+                quiz.setText("6.Sa kauna-unahang pagkakataon, iwinagayway ang watawat ng Pilipinas kasabay ang pagtugtog ng Marcha Nacional Filipina. Anong banda ang tumugtog nito?");
 
-                A1.setText("had");
-                A2.setText("have");
-                A3.setText("has");
-                A4.setText("having");
+                A1.setText("San Francisco de Malabon");
+                A2.setText("San Agustin de Intramuros");
+                A3.setText("Banda Nacional de Filipina");
+                A4.setText("Banda de Emilio Aguinaldo");
 
 
 
@@ -298,30 +298,30 @@ public class Hekasi extends Activity {
 
 
         if (n == 5) {
-            if (answerContent.equals("has")) {
+            if (answerContent.equals("San Francisco de Malabon")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("7. Physics _____ best subject");
+                quiz.setText("7. Sinong diplomatiko ng bansa ang nagtungo sa Paris upang pigilan ang kasunduan sa pagitan ng Amerika at Espanya?");
 
-                A1.setText("is");
-                A2.setText("are");
-                A3.setText("was");
-                A4.setText("were");
+                A1.setText("Julian Felipe");
+                A2.setText("Felipe Agoncillo");
+                A3.setText("Melchora Agoncillo");
+                A4.setText("Juan Luna");
 
 
                 scoreTxt.setText(score+1+"");
 
             } else {
                 //incorrect
-                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is has",
+                Toast.makeText(getApplicationContext(), "Wrong, Tamang sagot ay San Francisco de Malabon",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("7. Physics _____ best subject");
+                quiz.setText("7. Sinong diplomatiko ng bansa ang nagtungo sa Paris upang pigilan ang kasunduan sa pagitan ng Amerika at Espanya?");
 
-                A1.setText("is");
-                A2.setText("are");
-                A3.setText("was");
-                A4.setText("were");
+                A1.setText("Julian Felipe");
+                A2.setText("Felipe Agoncillo");
+                A3.setText("Melchora Agoncillo");
+                A4.setText("Juan Luna");
 
 
 
@@ -332,30 +332,30 @@ public class Hekasi extends Activity {
 
 
         if (n == 6) {
-            if (answerContent.equals("is")) {
+            if (answerContent.equals("Felipe Agoncillo")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("8. Tonsilitis _____ swelling of the throat.");
+                quiz.setText("8. Bakit pamahalaang military ang itinatag ng Amerika sa Kamaynilaan matapos silang lusubin ng mga Hapones?");
 
-                A1.setText("cause");
-                A2.setText("causes");
-                A3.setText("caysed");
-                A4.setText("caused");
+                A1.setText("upang di makapasok ang mga Hapones");
+                A2.setText("dahil hindi pa maayos ang lahat at kailangan ng agad na mangangalaga sa buong kapuluan dulot ng digmaan");
+                A3.setText("upang magilan ang pagpasok ng sinumang mananakop");
+                A4.setText("dahil nais ng Amerika na mapasakamay nila ang bansa");
 
 
                 scoreTxt.setText(score+1+"");
 
             } else {
                 //incorrect
-                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is is",
+                Toast.makeText(getApplicationContext(), "Wrong, Tamang sagot ay Felipe Agoncillo",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("8. Tonsilitis _____ swelling of the throat.");
+                quiz.setText("8. Bakit pamahalaang military ang itinatag ng Amerika sa Kamaynilaan matapos silang lusubin ng mga Hapones?");
 
-                A1.setText("cause");
-                A2.setText("causes");
-                A3.setText("caysed");
-                A4.setText("caused");
+                A1.setText("upang di makapasok ang mga Hapones");
+                A2.setText("dahil hindi pa maayos ang lahat at kailangan ng agad na mangangalaga sa buong kapuluan dulot ng digmaan");
+                A3.setText("upang magilan ang pagpasok ng sinumang mananakop");
+                A4.setText("dahil nais ng Amerika na mapasakamay nila ang bansa");
 
 
 
@@ -366,30 +366,30 @@ public class Hekasi extends Activity {
 
 
         if (n == 7) {
-            if (answerContent.equals("causes")) {
+            if (answerContent.equals("dahil hindi pa maayos ang lahat at kailangan ng agad na mangangalaga sa buong kapuluan dulot ng digmaan")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("9. Measles _____ all over the body.");
+                quiz.setText("9. Noong Hunyo 12, 1898 ipinahayag ang ating kalayaan sa Kawit, Cavite. Sino ang nagbasa ng sulat sa pagpapahayag ng ating kalayaan?");
 
-                A1.setText("spreads");
-                A2.setText("spread");
-                A3.setText("spreading");
-                A4.setText("none of the above");
+                A1.setText("Felipe Agoncillo");
+                A2.setText("Ambrocio Rianzares Bautista");
+                A3.setText("Pedro Paterno");
+                A4.setText("Daniel Tirona");
 
 
                 scoreTxt.setText(score+1+"");
 
             } else {
                 //incorrect
-                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is causes",
+                Toast.makeText(getApplicationContext(), "Wrong, Tamang sagot ay dahil hindi pa maayos ang lahat at kailangan ng agad na mangangalaga sa buong kapuluan dulot ng digmaan",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("9. Measles _____ all over the body.");
+                quiz.setText("9. Noong Hunyo 12, 1898 ipinahayag ang ating kalayaan sa Kawit, Cavite. Sino ang nagbasa ng sulat sa pagpapahayag ng ating kalayaan?");
 
-                A1.setText("spreads");
-                A2.setText("spread");
-                A3.setText("spreading");
-                A4.setText("none of the above");
+                A1.setText("Felipe Agoncillo");
+                A2.setText("Ambrocio Rianzares Bautista");
+                A3.setText("Pedro Paterno");
+                A4.setText("Daniel Tirona");
 
 
 
@@ -400,30 +400,30 @@ public class Hekasi extends Activity {
 
 
         if (n == 8) {
-            if (answerContent.equals("spreads")) {
+            if (answerContent.equals("Ambrocio Rianzares Bautista")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("10. The Philippines _____ beautiful historical places and tourists spots.");
+                quiz.setText("10. Ang kongresong panghimagsikan ay binuo ng mga kinatawan mula sa iba't-ibang panig ng Pilipinas ay tinawag na _____.");
 
-                A1.setText("has");
-                A2.setText("have");
-                A3.setText("had");
-                A4.setText("was");
+                A1.setText("Philippine Congress");
+                A2.setText("Malolos Congress");
+                A3.setText("Biak na Bato Congress");
+                A4.setText("Kongreso ng Estados Unidos");
 
 
                 scoreTxt.setText(score+1+"");
 
             } else {
                 //incorrect
-                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is spreads",
+                Toast.makeText(getApplicationContext(), "Wrong, Tamang sagot ay Ambrocio Rianzares Bautista",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("10. The Philippines _____ beautiful historical places and tourists spots.");
+                quiz.setText("10. Ang kongresong panghimagsikan ay binuo ng mga kinatawan mula sa iba't-ibang panig ng Pilipinas ay tinawag na _____.");
 
-                A1.setText("has");
-                A2.setText("have");
-                A3.setText("had");
-                A4.setText("was");
+                A1.setText("Philippine Congress");
+                A2.setText("Malolos Congress");
+                A3.setText("Biak na Bato Congress");
+                A4.setText("Kongreso ng Estados Unidos");
 
 
 
@@ -433,30 +433,30 @@ public class Hekasi extends Activity {
         }
 
         if (n == 9) {
-            if (answerContent.equals("has")) {
+            if (answerContent.equals("Malolos Congress")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("11. Tuberculosis _____ one of the effects of excessive cigarettes smoking.");
+                quiz.setText("11. Sa digmaang Amerikano-Pilipino itinatag niya ang Republikang Tagalog na nagpalabas na walang susuko sa mga Amerikano. Sino siya?");
 
-                A1.setText("is");
-                A2.setText("are");
-                A3.setText("was");
-                A4.setText("were");
+                A1.setText("Hen. Miguel Malvar");
+                A2.setText("Hen. Gregorio del Pilar");
+                A3.setText("Macario Sakay");
+                A4.setText("Hen. Vicente Lukban");
 
 
                 scoreTxt.setText(score+1+"");
 
             } else {
                 //incorrect
-                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is has",
+                Toast.makeText(getApplicationContext(), "Wrong, Tamang sagot ay Malolos Congress",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("11. Tuberculosis _____ one of the effects of excessive cigarettes smoking.");
+                quiz.setText("11. Sa digmaang Amerikano-Pilipino itinatag niya ang Republikang Tagalog na nagpalabas na walang susuko sa mga Amerikano. Sino siya?");
 
-                A1.setText("is");
-                A2.setText("are");
-                A3.setText("was");
-                A4.setText("were");
+                A1.setText("Hen. Miguel Malvar");
+                A2.setText("Hen. Gregorio del Pilar");
+                A3.setText("Macario Sakay");
+                A4.setText("Hen. Vicente Lukban");
 
 
 
@@ -466,30 +466,30 @@ public class Hekasi extends Activity {
         }
 
         if (n == 10) {
-            if (answerContent.equals("is")) {
+            if (answerContent.equals("Macario Sakay")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("12. Concern with the affairs of the government.");
+                quiz.setText("12. Ang mga sumusunod ay itinakda ng Batas Cooper ng 1902 maliban sa isa.");
 
-                A1.setText("news");
-                A2.setText("politics");
-                A3.setText("mumps");
-                A4.setText("measies");
+                A1.setText("Pagbuo ng isang Asemblea na binuo ng mga Pilipino");
+                A2.setText("Pagkakaroon ng katipunan ng karapatan");
+                A3.setText("Paghirang ng dalawang komisyonado na kakatawan sa Pilipinas");
+                A4.setText("Paglinang ng likas na yaman ng Pilipinas para sa kapakanan ng mga Pilipino at Amerikano");
 
 
                 scoreTxt.setText(score + 1 + "");
 
             } else {
                 //incorrect
-                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is is",
+                Toast.makeText(getApplicationContext(), "Wrong, Tamang sagot ay Macario Sakay",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("12. Concern with the affairs of the government.");
+                quiz.setText("12. Ang mga sumusunod ay itinakda ng Batas Cooper ng 1902 maliban sa isa.");
 
-                A1.setText("news");
-                A2.setText("politics");
-                A3.setText("mumps");
-                A4.setText("measies");
+                A1.setText("Pagbuo ng isang Asemblea na binuo ng mga Pilipino");
+                A2.setText("Pagkakaroon ng katipunan ng karapatan");
+                A3.setText("Paghirang ng dalawang komisyonado na kakatawan sa Pilipinas");
+                A4.setText("Paglinang ng likas na yaman ng Pilipinas para sa kapakanan ng mga Pilipino at Amerikano");
 
 
 
@@ -499,30 +499,30 @@ public class Hekasi extends Activity {
         }
 
         if (n == 11) {
-            if (answerContent.equals("politics")) {
+            if (answerContent.equals("Paglinang ng likas na yaman ng Pilipinas para sa kapakanan ng mga Pilipino at Amerikano")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("13. The art of performing an activity with body contortions");
+                quiz.setText("13.  Ang Batas Jones ay nagtalaga ng mga probisyon na dapat tanggapin ng mga Pilipino bilang paghahanda sa sariling pamamahala maliban sa isa.");
 
-                A1.setText("acrobatics");
-                A2.setText("yoga");
-                A3.setText("martial arts");
-                A4.setText("karate");
+                A1.setText("Pagtatalaga ng isang Gobernador Heneral na Amerikano na gaganap ng kapangyarihang tagapagpaganap");
+                A2.setText("Paglikha ng batasang binubuo ng dalawang kapulungan.");
+                A3.setText("Ang Korte Suprema at mga mababang hukuman ang may kapangyarihang panghukom.");
+                A4.setText("Ang karapatan ng mamamayan ay di nakapaloob sa Katipunan ng karapatan");
 
 
                 scoreTxt.setText(score + 1 + "");
 
             } else {
                 //incorrect
-                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is politics",
+                Toast.makeText(getApplicationContext(), "Wrong, Tamang sagot ay Paglinang ng likas na yaman ng Pilipinas para sa kapakanan ng mga Pilipino at Amerikano",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("13. The art of performing an activity with body contortions");
+                quiz.setText("13.  Ang Batas Jones ay nagtalaga ng mga probisyon na dapat tanggapin ng mga Pilipino bilang paghahanda sa sariling pamamahala maliban sa isa.");
 
-                A1.setText("acrobatics");
-                A2.setText("yoga");
-                A3.setText("martial arts");
-                A4.setText("karate");
+                A1.setText("Pagtatalaga ng isang Gobernador Heneral na Amerikano na gaganap ng kapangyarihang tagapagpaganap");
+                A2.setText("Paglikha ng batasang binubuo ng dalawang kapulungan.");
+                A3.setText("Ang Korte Suprema at mga mababang hukuman ang may kapangyarihang panghukom.");
+                A4.setText("Ang karapatan ng mamamayan ay di nakapaloob sa Katipunan ng karapatan");
 
 
 
@@ -532,30 +532,30 @@ public class Hekasi extends Activity {
         }
 
         if (n == 12) {
-            if (answerContent.equals("acrobatics")) {
+            if (answerContent.equals("Ang karapatan ng mamamayan ay di nakapaloob sa Katipunan ng karapatan")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("14. Daily happening heard over the radio and television.");
+                quiz.setText("14. Anong batas na itinatag ng mga Amerikano ang natakda ng sampung taong transisyon bago mapasalin sa mga Pilipino ang pamamahala?");
 
-                A1.setText("politics");
-                A2.setText("adds");
-                A3.setText("news");
-                A4.setText("commercial");
+                A1.setText("Batas Jones");
+                A2.setText("Batas Hare-Hawes-Cutting");
+                A3.setText("Batas Pilipinas");
+                A4.setText("Batas Tyding-Mcduffie");
 
 
                 scoreTxt.setText(score + 1 + "");
 
             } else {
                 //incorrect
-                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is acrobatics",
+                Toast.makeText(getApplicationContext(), "Wrong, Tamang sagot ay Ang karapatan ng mamamayan ay di nakapaloob sa Katipunan ng karapatan",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("14. Daily happening heard over the radio and television.");
+                quiz.setText("14. Anong batas na itinatag ng mga Amerikano ang natakda ng sampung taong transisyon bago mapasalin sa mga Pilipino ang pamamahala?");
 
-                A1.setText("politics");
-                A2.setText("adds");
-                A3.setText("news");
-                A4.setText("commercial");
+                A1.setText("Batas Jones");
+                A2.setText("Batas Hare-Hawes-Cutting");
+                A3.setText("Batas Pilipinas");
+                A4.setText("Batas Tyding-Mcduffie");
 
 
 
@@ -565,30 +565,30 @@ public class Hekasi extends Activity {
         }
 
         if (n == 13) {
-            if (answerContent.equals("news")) {
+            if (answerContent.equals("Batas Hare-Hawes-Cutting")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("15. An acute contagious disease marked by fever and by the swelling at the side of the face near the ear.");
+                quiz.setText("15. Sumiklab ang Ikalawang Digmaang Pandaigdig na kinaaniban ng ilan pang bansa sa Europa na pinamunuan ni Adolf Hitler. Anong bansa ang nanguna sa paglusob sa Asya?");
 
-                A1.setText("mumps");
-                A2.setText("messeales");
-                A3.setText("measies");
-                A4.setText("virus");
+                A1.setText("Japan");
+                A2.setText("Thailand");
+                A3.setText("Vietnam");
+                A4.setText("China");
 
 
                 scoreTxt.setText(score + 1 + "");
 
             } else {
                 //incorrect
-                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is news",
+                Toast.makeText(getApplicationContext(), "Wrong, Tamang sagot ay Batas Hare-Hawes-Cutting",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("15. An acute contagious disease marked by fever and by the swelling at the side of the face near the ear.");
+                quiz.setText("15. Sumiklab ang Ikalawang Digmaang Pandaigdig na kinaaniban ng ilan pang bansa sa Europa na pinamunuan ni Adolf Hitler. Anong bansa ang nanguna sa paglusob sa Asya?");
 
-                A1.setText("mumps");
-                A2.setText("messeales");
-                A3.setText("measies");
-                A4.setText("virus");
+                A1.setText("Japan");
+                A2.setText("Thailand");
+                A3.setText("Vietnam");
+                A4.setText("China");
 
 
 
@@ -598,30 +598,30 @@ public class Hekasi extends Activity {
         }
 
         if (n == 14) {
-            if (answerContent.equals("mumps")) {
+            if (answerContent.equals("Japan")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("16. \"Baking\" delicious pastries is her favorite past time.");
+                quiz.setText("16. Ano ang ibig sabihin ng Greater East Asia Co-Properity Sphere ng bansang Hapon?");
 
-                A1.setText("subject");
-                A2.setText("direct object");
-                A3.setText("object of the preposition");
-                A4.setText("none of the above");
+                A1.setText("ito ang planong magtatag ng bagong kaayusan sa Asya");
+                A2.setText("ito ang planong magtatag ng malakihang industriya sa bansa");
+                A3.setText("ito ang pagpapatupad ng pangkabuhayang pagtutulungan ng mga bansa sa Asya");
+                A4.setText("ito ay ang makilalang lider ng mga Asyano at pairalin ang mga paniniwalang Asyano.");
 
 
                 scoreTxt.setText(score + 1 + "");
 
             } else {
                 //incorrect
-                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is mumps",
+                Toast.makeText(getApplicationContext(), "Wrong, Tamang sagot ay Japan",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("16. \"Baking\" delicious pastries is her favorite past time.");
+                quiz.setText("16. Ano ang ibig sabihin ng Greater East Asia Co-Properity Sphere ng bansang Hapon?");
 
-                A1.setText("subject");
-                A2.setText("direct object");
-                A3.setText("object of the preposition");
-                A4.setText("none of the above");
+                A1.setText("ito ang planong magtatag ng bagong kaayusan sa Asya");
+                A2.setText("ito ang planong magtatag ng malakihang industriya sa bansa");
+                A3.setText("ito ang pagpapatupad ng pangkabuhayang pagtutulungan ng mga bansa sa Asya");
+                A4.setText("ito ay ang makilalang lider ng mga Asyano at pairalin ang mga paniniwalang Asyano.");
 
 
 
@@ -631,30 +631,30 @@ public class Hekasi extends Activity {
         }
 
         if (n == 15) {
-            if (answerContent.equals("subject")) {
+            if (answerContent.equals("ito ang planong magtatag ng bagong kaayusan sa Asya")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("17. The preacher talks about \"praying\" without ceasing");
+                quiz.setText("17. Ang mga sumusunod ay mga layunin ng bansang Hapon sa kanilang pananakop at magpalaganap ng paniniwalang Asyano maliban sa isa.");
 
-                A1.setText("subject");
-                A2.setText("direct object");
-                A3.setText("object of the preposition");
-                A4.setText("none of the above");
+                A1.setText("Paghahanap ng mapagdadalhan ng kanyang mga produkto");
+                A2.setText("Pagtatatag ng pangkabuhayang pagtutulungan ng mga bansa sa Asya");
+                A3.setText("Mapabagsak ang pwersang Amerikano at sakupin ang Pilipinas");
+                A4.setText("Makilalang lider ng mga Asyano para sa Asyano lamang");
 
 
                 scoreTxt.setText(score + 1 + "");
 
             } else {
                 //incorrect
-                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is subject",
+                Toast.makeText(getApplicationContext(), "Wrong, Tamang sagot ay ito ang planong magtatag ng bagong kaayusan sa Asya",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("17. The preacher talks about \"praying\" without ceasing");
+                quiz.setText("17. Ang mga sumusunod ay mga layunin ng bansang Hapon sa kanilang pananakop at magpalaganap ng paniniwalang Asyano maliban sa isa.");
 
-                A1.setText("subject");
-                A2.setText("direct object");
-                A3.setText("object of the preposition");
-                A4.setText("none of the above");
+                A1.setText("Paghahanap ng mapagdadalhan ng kanyang mga produkto");
+                A2.setText("Pagtatatag ng pangkabuhayang pagtutulungan ng mga bansa sa Asya");
+                A3.setText("Mapabagsak ang pwersang Amerikano at sakupin ang Pilipinas");
+                A4.setText("Makilalang lider ng mga Asyano para sa Asyano lamang");
 
 
 
@@ -664,30 +664,30 @@ public class Hekasi extends Activity {
         }
 
         if (n == 16) {
-            if (answerContent.equals("object of the preposition")) {
+            if (answerContent.equals("Mapabagsak ang pwersang Amerikano at sakupin ang Pilipinas")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("18. I certainly love \"eating\" different kinds of chocolates.");
+                quiz.setText("18. Naging matulungin ang pamahalaang Amerikano ngunit naging mapilit sila sa paghiling na pagtibayin ang pantay na karapatan ng Pilipino at Amerikano sa paglinang ng likas na yaman ng bansa. Ito ay tinatawag na _____.");
 
-                A1.setText("subject");
-                A2.setText("direct object");
-                A3.setText("object of the preposition");
-                A4.setText("none of the above");
+                A1.setText("Parity Rights");
+                A2.setText("Bill of Rights");
+                A3.setText("Party List");
+                A4.setText("Benevolent Assimilation");
 
 
                 scoreTxt.setText(score + 1 + "");
 
             } else {
                 //incorrect
-                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is object of the preposition",
+                Toast.makeText(getApplicationContext(), "Wrong, Tamang sagot ay Mapabagsak ang pwersang Amerikano at sakupin ang Pilipinas",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("18. I certainly love \"eating\" different kinds of chocolates.");
+                quiz.setText("18. Naging matulungin ang pamahalaang Amerikano ngunit naging mapilit sila sa paghiling na pagtibayin ang pantay na karapatan ng Pilipino at Amerikano sa paglinang ng likas na yaman ng bansa. Ito ay tinatawag na _____.");
 
-                A1.setText("subject");
-                A2.setText("direct object");
-                A3.setText("object of the preposition");
-                A4.setText("none of the above");
+                A1.setText("Parity Rights");
+                A2.setText("Bill of Rights");
+                A3.setText("Party List");
+                A4.setText("Benevolent Assimilation");
 
 
 
@@ -697,30 +697,30 @@ public class Hekasi extends Activity {
         }
 
         if (n == 17) {
-            if (answerContent.equals("direct object")) {
+            if (answerContent.equals("Parity Rights")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("19. My mother never considered \"cooking\" a tedious task.");
+                quiz.setText("19. Isang samahan ang itinatag ni Pangulong Macapagal para sa mabuting pakikipag-uganayan sa mga karatig bansang Malaysia at Indonesia. Ito ay ang tinawag na ____");
 
-                A1.setText("subject");
-                A2.setText("direct object");
-                A3.setText("object of the preposition");
-                A4.setText("none of the above");
+                A1.setText("MAPHILINDO");
+                A2.setText("ASEAN");
+                A3.setText("APEC");
+                A4.setText("SEATO");
 
 
                 scoreTxt.setText(score + 1 + "");
 
             } else {
                 //incorrect
-                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is direct object",
+                Toast.makeText(getApplicationContext(), "Wrong, Tamang sagot ay Parity Rights",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("19. My mother never considered \"cooking\" a tedious task.");
+                quiz.setText("19. Isang samahan ang itinatag ni Pangulong Macapagal para sa mabuting pakikipag-uganayan sa mga karatig bansang Malaysia at Indonesia. Ito ay ang tinawag na ____");
 
-                A1.setText("subject");
-                A2.setText("direct object");
-                A3.setText("object of the preposition");
-                A4.setText("none of the above");
+                A1.setText("MAPHILINDO");
+                A2.setText("ASEAN");
+                A3.setText("APEC");
+                A4.setText("SEATO");
 
 
 
@@ -733,12 +733,12 @@ public class Hekasi extends Activity {
             if (answerContent.equals("object of the preposition")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("20. \"Playing\" computer games doesn't help students to learn.");
+                quiz.setText("20. Ito ay sangay ng pamahalaan na siyang naghahabol sa mga yaman ng bansa na nakamit ninuman sa hindi legal at tamang paraan.");
 
-                A1.setText("subject");
-                A2.setText("direct object");
-                A3.setText("object of the preposition");
-                A4.setText("none of the above");
+                A1.setText("PACSA");
+                A2.setText("PACT");
+                A3.setText("PCGG");
+                A4.setText("NBI");
 
 
                 scoreTxt.setText(score + 1 + "");
@@ -748,12 +748,12 @@ public class Hekasi extends Activity {
                 Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is object of the preposition",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("20. \"Playing\" computer games doesn't help students to learn.");
+                quiz.setText("20. Ito ay sangay ng pamahalaan na siyang naghahabol sa mga yaman ng bansa na nakamit ninuman sa hindi legal at tamang paraan.");
 
-                A1.setText("subject");
-                A2.setText("direct object");
-                A3.setText("object of the preposition");
-                A4.setText("none of the above");
+                A1.setText("PACSA");
+                A2.setText("PACT");
+                A3.setText("PCGG");
+                A4.setText("NBI");
 
 
 
@@ -763,30 +763,30 @@ public class Hekasi extends Activity {
         }
 
         if (n == 19) {
-            if (answerContent.equals("subject")) {
+            if (answerContent.equals("PCGG")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("21. He congratulated his friend for \"winning\" first place in Quiz Bee.");
+                quiz.setText("21. Anong pangyayari ang naging hudyat ng paghihimagsik ng mga Pilipino noong panahon ng Kastila?");
 
-                A1.setText("subject");
-                A2.setText("direct object");
-                A3.setText("object of the preposition");
-                A4.setText("none of the above");
+                A1.setText("pagkakatatag ng La Liga Filipina");
+                A2.setText("ang unang sigaw sa Pugad Lawin");
+                A3.setText("ang pagkamatay ng GOMBURZA");
+                A4.setText("pagpatay kay Rizal");
 
 
                 scoreTxt.setText(score + 1 + "");
 
             } else {
                 //incorrect
-                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is subject",
+                Toast.makeText(getApplicationContext(), "Wrong, Tamang sagot ay PCGG",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("21. He congratulated his friend for \"winning\" first place in Quiz Bee.");
+                quiz.setText("21. Anong pangyayari ang naging hudyat ng paghihimagsik ng mga Pilipino noong panahon ng Kastila?");
 
-                A1.setText("subject");
-                A2.setText("direct object");
-                A3.setText("object of the preposition");
-                A4.setText("none of the above");
+                A1.setText("pagkakatatag ng La Liga Filipina");
+                A2.setText("ang unang sigaw sa Pugad Lawin");
+                A3.setText("ang pagkamatay ng GOMBURZA");
+                A4.setText("pagpatay kay Rizal");
 
 
 
@@ -796,30 +796,30 @@ public class Hekasi extends Activity {
         }
 
         if (n == 20) {
-            if (answerContent.equals("object of the preposition")) {
+            if (answerContent.equals("ang unang sigaw sa Pugad Lawin")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("22. \"Repair\" the bridges is the priority of the Department of Public Works and Highway after the strong typhoon.");
+                quiz.setText("22. Itinatag ang Katipunan noong Hulyo 7, 1892 sa pamumuno ni Bonifacio na kinapapalooban ng tatlong saligang layunin. Ito ay ang _____.");
 
-                A1.setText("subject");
-                A2.setText("direct object");
-                A3.setText("object of the preposition");
-                A4.setText("none of the above");
+                A1.setText("pampulitikal, sosyal at pinansyal");
+                A2.setText("sosyal, sibiko at pulitikal");
+                A3.setText("pulitikal, moral at sibiko");
+                A4.setText("moral, ispirituwal, sosyal, pinansyal at sibiko");
 
 
                 scoreTxt.setText(score + 1 + "");
 
             } else {
                 //incorrect
-                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is object of the preposition",
+                Toast.makeText(getApplicationContext(), "Wrong, Tamang sagot ay ang unang sigaw sa Pugad Lawin",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("22. \"Repair\" the bridges is the priority of the Department of Public Works and Highway after the strong typhoon.");
+                quiz.setText("22. Itinatag ang Katipunan noong Hulyo 7, 1892 sa pamumuno ni Bonifacio na kinapapalooban ng tatlong saligang layunin. Ito ay ang _____.");
 
-                A1.setText("subject");
-                A2.setText("direct object");
-                A3.setText("object of the preposition");
-                A4.setText("none of the above");
+                A1.setText("pampulitikal, sosyal at pinansyal");
+                A2.setText("sosyal, sibiko at pulitikal");
+                A3.setText("pulitikal, moral at sibiko");
+                A4.setText("moral, ispirituwal, sosyal, pinansyal at sibiko");
 
 
 
@@ -829,30 +829,30 @@ public class Hekasi extends Activity {
         }
 
         if (n == 21) {
-            if (answerContent.equals("subject")) {
+            if (answerContent.equals("pulitikal, moral at sibiko")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("23. The Department of Health provides \"outstand\" health service for the filipino people.");
+                quiz.setText("23. Naging katuwang siya ni Andres Bonifacio sa pakikipaglaban at naataang tagapag-ingat sa mga kasulatang at dokumentong may kaugnayan sa kilusan. Siya ay si ____.");
 
-                A1.setText("subject");
-                A2.setText("direct object");
-                A3.setText("object of the preposition");
-                A4.setText("none of the above");
+                A1.setText("Marina Dizon Santiago");
+                A2.setText("Teresa Magbanua");
+                A3.setText("Melchora Aquino");
+                A4.setText("Gregoria de Jesus");
 
 
                 scoreTxt.setText(score + 1 + "");
 
             } else {
                 //incorrect
-                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is subject",
+                Toast.makeText(getApplicationContext(), "Wrong, Tamang sagot ay pulitikal, moral at sibiko",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("23. The Department of Health provides \"outstand\" health service for the filipino people.");
+                quiz.setText("23. Naging katuwang siya ni Andres Bonifacio sa pakikipaglaban at naataang tagapag-ingat sa mga kasulatang at dokumentong may kaugnayan sa kilusan. Siya ay si ____.");
 
-                A1.setText("subject");
-                A2.setText("direct object");
-                A3.setText("object of the preposition");
-                A4.setText("none of the above");
+                A1.setText("Marina Dizon Santiago");
+                A2.setText("Teresa Magbanua");
+                A3.setText("Melchora Aquino");
+                A4.setText("Gregoria de Jesus");
 
 
 
@@ -862,30 +862,30 @@ public class Hekasi extends Activity {
         }
 
         if (n == 22) {
-            if (answerContent.equals("direct object")) {
+            if (answerContent.equals("Gregoria de Jesus")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("24. \"Educate\" an individual gives him a good future.");
+                quiz.setText("24. Sino ang pumatay kay Andres Bonifacio? ");
 
-                A1.setText("subject");
-                A2.setText("direct object");
-                A3.setText("object of the preposition");
-                A4.setText("none of the above");
+                A1.setText("Emilio Aguinaldo");
+                A2.setText("Major Lazaro Makapagal");
+                A3.setText("Heneral Noriel");
+                A4.setText("Heneral Mamerto Natividad");
 
 
                 scoreTxt.setText(score + 1 + "");
 
             } else {
                 //incorrect
-                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is direct object",
+                Toast.makeText(getApplicationContext(), "Wrong, Tamang sagot ay Gregoria de Jesus",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("24. \"Educate\" an individual gives him a good future.");
+                quiz.setText("24. Sino ang pumatay kay Andres Bonifacio? ");
 
-                A1.setText("subject");
-                A2.setText("direct object");
-                A3.setText("object of the preposition");
-                A4.setText("none of the above");
+                A1.setText("Emilio Aguinaldo");
+                A2.setText("Major Lazaro Makapagal");
+                A3.setText("Heneral Noriel");
+                A4.setText("Heneral Mamerto Natividad");
 
 
 
@@ -896,30 +896,30 @@ public class Hekasi extends Activity {
 
 
         if (n == 23) {
-            if (answerContent.equals("subject")) {
+            if (answerContent.equals("Major Lazaro Makapagal")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("25. The Department of Tourism considers \"promote\" the Philippine products in Europe a big success.");
+                quiz.setText("25. Di lahat ng mga Kastila sa bansa ay kaaway ng mga Pilipino noong panahon ng Kastila. Sila ay tinatawag na mga _____");
 
-                A1.setText("subject");
-                A2.setText("direct object");
-                A3.setText("object of the preposition");
-                A4.setText("none of the above");
+                A1.setText("Mestizo");
+                A2.setText("Peninsulares");
+                A3.setText("Pilipinong Kastila");
+                A4.setText("Insulares");
 
 
                 scoreTxt.setText(score + 1 + "");
 
             } else {
                 //incorrect
-                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is subject",
+                Toast.makeText(getApplicationContext(), "Wrong, Tamang sagot ay Major Lazaro Makapagal",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("25. The Department of Tourism considers \"promote\" the Philippine products in Europe a big success.");
+                quiz.setText("25. Di lahat ng mga Kastila sa bansa ay kaaway ng mga Pilipino noong panahon ng Kastila. Sila ay tinatawag na mga _____");
 
-                A1.setText("subject");
-                A2.setText("direct object");
-                A3.setText("object of the preposition");
-                A4.setText("none of the above");
+                A1.setText("Mestizo");
+                A2.setText("Peninsulares");
+                A3.setText("Pilipinong Kastila");
+                A4.setText("Insulares");
 
 
 
@@ -929,30 +929,30 @@ public class Hekasi extends Activity {
         }
 
         if (n == 24) {
-            if (answerContent.equals("object of the preposition")) {
+            if (answerContent.equals("Insulares")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("26. The (policeman) _____ are the safety of everybody.");
+                quiz.setText("26. Ang Pilipinas ay isang bansa na kumikilala sa kahalagahan ng mabuting pakikipag-ugnayan. Ang \"The State shall pursue an independent foreign policy\" ay nakasaad sa _____");
 
-                A1.setText("pulisman");
-                A2.setText("policeman");
-                A3.setText("policemen");
-                A4.setText("none of the above");
+                A1.setText("Saligang Batas 1987, Artikulo II, Seksyon 7");
+                A2.setText("Saligang Batas 1935, Artikulo II, Seksyon 7");
+                A3.setText("Saligang Batas 1973, Artikulo II, Seksyon 6");
+                A4.setText("Saligang Batas 1987, Artikulo I, Seksyon 7");
 
 
                 scoreTxt.setText(score + 1 + "");
 
             } else {
                 //incorrect
-                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is object of the preposition",
+                Toast.makeText(getApplicationContext(), "Wrong, Tamang sagot ay Insulares",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("26. The (policeman) _____ are the safety of everybody.");
+                quiz.setText("26. Ang Pilipinas ay isang bansa na kumikilala sa kahalagahan ng mabuting pakikipag-ugnayan. Ang \"The State shall pursue an independent foreign policy\" ay nakasaad sa _____");
 
-                A1.setText("pulisman");
-                A2.setText("policeman");
-                A3.setText("policemen");
-                A4.setText("none of the above");
+                A1.setText("Saligang Batas 1987, Artikulo II, Seksyon 7");
+                A2.setText("Saligang Batas 1935, Artikulo II, Seksyon 7");
+                A3.setText("Saligang Batas 1973, Artikulo II, Seksyon 6");
+                A4.setText("Saligang Batas 1987, Artikulo I, Seksyon 7");
 
 
 
@@ -962,30 +962,30 @@ public class Hekasi extends Activity {
         }
 
         if (n == 25) {
-            if (answerContent.equals("policemen")) {
+            if (answerContent.equals("Saligang Batas 1987, Artikulo II, Seksyon 7")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("27. People need (life jacket) _____ espicially when riding a boat.");
+                quiz.setText("27. Ang naging pangunahing layunin ng samahang ito ay ang pangangalaga ng bawat kasapi nito sa larangan ng militar para sa  kaligtasan at katahimikan.");
 
-                A1.setText("lives jacket");
-                A2.setText("lifes jacket");
-                A3.setText("life jackets");
-                A4.setText("none of the above");
+                A1.setText("SEATO");
+                A2.setText("UNO");
+                A3.setText("WHO");
+                A4.setText("APEC");
 
 
                 scoreTxt.setText(score + 1 + "");
 
             } else {
                 //incorrect
-                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is policemen",
+                Toast.makeText(getApplicationContext(), "Wrong, Tamang sagot ay Saligang Batas 1987, Artikulo II, Seksyon 7",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("27. People need (life jacket) _____ espicially when riding a boat.");
+                quiz.setText("27. Ang naging pangunahing layunin ng samahang ito ay ang pangangalaga ng bawat kasapi nito sa larangan ng militar para sa  kaligtasan at katahimikan.");
 
-                A1.setText("lives jacket");
-                A2.setText("lifes jacket");
-                A3.setText("life jackets");
-                A4.setText("none of the above");
+                A1.setText("SEATO");
+                A2.setText("UNO");
+                A3.setText("WHO");
+                A4.setText("APEC");
 
 
 
@@ -999,12 +999,12 @@ public class Hekasi extends Activity {
             if (answerContent.equals("life jackets")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("28. Nowadays, people use (cellular phone) _____ for communication.");
+                quiz.setText("28. Ang samahang ito sa Asya ay nagpapakita ng pagbabawas ng pag-asa sa tulong ng Estados Unidos na higit na pinahalagahan ni Pangulong Carlos P. Garcia.");
 
-                A1.setText("cellulars phone");
-                A2.setText("cellulars phones");
-                A3.setText("cellular phones");
-                A4.setText("none of the above");
+                A1.setText("APEC");
+                A2.setText("SEATO");
+                A3.setText("ASA");
+                A4.setText("UNO");
 
 
                 scoreTxt.setText(score + 1 + "");
@@ -1014,12 +1014,12 @@ public class Hekasi extends Activity {
                 Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is life jackets",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("28. Nowadays, people use (cellular phone) _____ for communication.");
+                quiz.setText("28. Ang samahang ito sa Asya ay nagpapakita ng pagbabawas ng pag-asa sa tulong ng Estados Unidos na higit na pinahalagahan ni Pangulong Carlos P. Garcia.");
 
-                A1.setText("cellulars phone");
-                A2.setText("cellulars phones");
-                A3.setText("cellular phones");
-                A4.setText("none of the above");
+                A1.setText("APEC");
+                A2.setText("SEATO");
+                A3.setText("ASA");
+                A4.setText("UNO");
 
 
 
@@ -1030,30 +1030,30 @@ public class Hekasi extends Activity {
 
 
         if (n == 27) {
-            if (answerContent.equals("cellular phones")) {
+            if (answerContent.equals("ASA")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("29. The (maid-of-honor) _____ are ready for the rehearsal");
+                quiz.setText("29. Ang samahang ASEAN ay nagtatakda ng mga batas na sinusunod ng bawat kasapi. Binubuo ng mga pangulo ng mga kasaping bansa na siyang may pinakamataas na posisyon sa samahan. Ito ay _____");
 
-                A1.setText("maids-of-honor");
-                A2.setText("maids of honor");
-                A3.setText("maid of honor");
-                A4.setText("none of the above");
+                A1.setText("ASEAN Ministerial Meeting");
+                A2.setText("ASEAN Heads of Government");
+                A3.setText("ASEAN Standing Committee");
+                A4.setText("ASEAN Ad Hoc Committee");
 
 
                 scoreTxt.setText(score + 1 + "");
 
             } else {
                 //incorrect
-                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is cellular phones",
+                Toast.makeText(getApplicationContext(), "Wrong, Tamang sagot ay ASA",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("29. The (maid-of-honor) _____ are ready for the rehearsal");
+                quiz.setText("29. Ang samahang ASEAN ay nagtatakda ng mga batas na sinusunod ng bawat kasapi. Binubuo ng mga pangulo ng mga kasaping bansa na siyang may pinakamataas na posisyon sa samahan. Ito ay _____");
 
-                A1.setText("maids-of-honor");
-                A2.setText("maids of honor");
-                A3.setText("maid of honor");
-                A4.setText("none of the above");
+                A1.setText("ASEAN Ministerial Meeting");
+                A2.setText("ASEAN Heads of Government");
+                A3.setText("ASEAN Standing Committee");
+                A4.setText("ASEAN Ad Hoc Committee");
 
 
 
@@ -1063,30 +1063,30 @@ public class Hekasi extends Activity {
         }
 
         if (n == 28) {
-            if (answerContent.equals("maids of honor")) {
+            if (answerContent.equals("ASEAN Heads of Government")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("30. No one _____ the motion. Everyone voted for it. So…..");
+                quiz.setText("30. Ang mga sumusunod ay pangunahing layunin ng UNO maliban sa isa.");
 
-                A1.setText("objects");
-                A2.setText("object");
-                A3.setText("objected");
-                A4.setText("none of the above");
+                A1.setText("Ang paggalang sa karapatan ng tao na walang kinikilalang lahi,kulay,wika,kasarian at pananampalataya.");
+                A2.setText("Ang pagtatatag ng mabuting pagkakaibigan ng mga bansa.");
+                A3.setText("Ang pagpapanatili ng katahimikan at katiwasayan ng mga piling lugar lamang.");
+                A4.setText("Ang pangunahan ang mga gawain o maging sentro upang matupad ang layuning tinakda.");
 
 
                 scoreTxt.setText(score + 1 + "");
 
             } else {
                 //incorrect
-                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is maids of honor",
+                Toast.makeText(getApplicationContext(), "Wrong, Tamang sagot ay ASEAN Heads of Government",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("30. No one _____ the motion. Everyone voted for it. So…..");
+                quiz.setText("30. Ang mga sumusunod ay pangunahing layunin ng UNO maliban sa isa.");
 
-                A1.setText("objects");
-                A2.setText("object");
-                A3.setText("objected");
-                A4.setText("none of the above");
+                A1.setText("Ang paggalang sa karapatan ng tao na walang kinikilalang lahi,kulay,wika,kasarian at pananampalataya.");
+                A2.setText("Ang pagtatatag ng mabuting pagkakaibigan ng mga bansa.");
+                A3.setText("Ang pagpapanatili ng katahimikan at katiwasayan ng mga piling lugar lamang.");
+                A4.setText("Ang pangunahan ang mga gawain o maging sentro upang matupad ang layuning tinakda.");
 
 
 
@@ -1096,30 +1096,30 @@ public class Hekasi extends Activity {
         }
 
         if (n == 29) {
-            if (answerContent.equals("objected")) {
+            if (answerContent.equals("Ang pagpapanatili ng katahimikan at katiwasayan ng mga piling lugar lamang.")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("31. Mariel and Venna were the _____ for the secretary");
+                quiz.setText("31. Sino ang humawak sa dalawang ahensiya ng pananalapi ng UNO? ");
 
-                A1.setText("nominee");
-                A2.setText("nomineed");
-                A3.setText("nominees");
-                A4.setText("none of the above");
+                A1.setText("Rafael Salas");
+                A2.setText("Miguel Cuaderno");
+                A3.setText("Blas Ople");
+                A4.setText("Estefana Aldaba Lim");
 
 
                 scoreTxt.setText(score + 1 + "");
 
             } else {
                 //incorrect
-                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is objected",
+                Toast.makeText(getApplicationContext(), "Wrong, Tamang sagot ay Ang pagpapanatili ng katahimikan at katiwasayan ng mga piling lugar lamang.",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("31. Mariel and Venna were the _____ for the secretary");
+                quiz.setText("31. Sino ang humawak sa dalawang ahensiya ng pananalapi ng UNO? ");
 
-                A1.setText("nominee");
-                A2.setText("nomineed");
-                A3.setText("nominees");
-                A4.setText("none of the above");
+                A1.setText("Rafael Salas");
+                A2.setText("Miguel Cuaderno");
+                A3.setText("Blas Ople");
+                A4.setText("Estefana Aldaba Lim");
 
 
 
@@ -1129,30 +1129,30 @@ public class Hekasi extends Activity {
         }
 
         if (n == 30) {
-            if (answerContent.equals("nominees")) {
+            if (answerContent.equals("Miguel Cuaderno")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("32. Its _____ peak seasons when thieves roam to find victims in  crowded places.");
+                quiz.setText("32. Siya ang naging pangalawang kalihim ng Social Development and Humanitarian Affairs. Sino siya?");
 
-                A1.setText("across");
-                A2.setText("before");
-                A3.setText("during");
-                A4.setText("through");
+                A1.setText("Cesar Bengson");
+                A2.setText("Felixberto Serrano");
+                A3.setText("Estefania Aldaba Lim");
+                A4.setText("Dr. Juan Salcedo");
 
 
                 scoreTxt.setText(score + 1 + "");
 
             } else {
                 //incorrect
-                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is nominees",
+                Toast.makeText(getApplicationContext(), "Wrong, Tamang sagot ay Miguel Cuaderno",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("32. Its _____ peak seasons when thieves roam to find victims in  crowded places.");
+                quiz.setText("32. Siya ang naging pangalawang kalihim ng Social Development and Humanitarian Affairs. Sino siya?");
 
-                A1.setText("across");
-                A2.setText("before");
-                A3.setText("during");
-                A4.setText("through");
+                A1.setText("Cesar Bengson");
+                A2.setText("Felixberto Serrano");
+                A3.setText("Estefania Aldaba Lim");
+                A4.setText("Dr. Juan Salcedo");
 
 
 
@@ -1162,30 +1162,30 @@ public class Hekasi extends Activity {
         }
 
         if (n == 31) {
-            if (answerContent.equals("during")) {
+            if (answerContent.equals("Estefania Aldaba Lim")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("33. Police officers must have gone _____ rigorous trainings before they are sent to capture bad elements.");
+                quiz.setText("33. Ang samahang ito ay binubuo ng 18 kasapi na ang layunin ay magkaroon ng magandang ugnayanang mga papaunlad na bansa sa mga mauunlad nang bansa.");
 
-                A1.setText("across");
-                A2.setText("before");
-                A3.setText("during");
-                A4.setText("through");
+                A1.setText("SEATO");
+                A2.setText("UNO");
+                A3.setText("APEC");
+                A4.setText("WHO");
 
 
                 scoreTxt.setText(score + 1 + "");
 
             } else {
                 //incorrect
-                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is during",
+                Toast.makeText(getApplicationContext(), "Wrong, Tamang sagot ay Estefania Aldaba Lim",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("33. Police officers must have gone _____ rigorous trainings before they are sent to capture bad elements.");
+                quiz.setText("33. Ang samahang ito ay binubuo ng 18 kasapi na ang layunin ay magkaroon ng magandang ugnayanang mga papaunlad na bansa sa mga mauunlad nang bansa.");
 
-                A1.setText("across");
-                A2.setText("before");
-                A3.setText("during");
-                A4.setText("through");
+                A1.setText("SEATO");
+                A2.setText("UNO");
+                A3.setText("APEC");
+                A4.setText("WHO");
 
 
 
@@ -1195,30 +1195,30 @@ public class Hekasi extends Activity {
         }
 
         if (n == 32) {
-            if (answerContent.equals("through")) {
+            if (answerContent.equals("APEC")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("34. It is not safe to run _____ the streets espicially along busy roads.");
+                quiz.setText("34. Ang sumusunod ang mga bansang kasapi sa APEC maliban sa ilan.");
 
-                A1.setText("across");
-                A2.setText("before");
-                A3.setText("during");
-                A4.setText("through");
+                A1.setText("Egypt, Eutopia at Mali");
+                A2.setText("Malaysia, Thailand at Vietnam ");
+                A3.setText("China, Singapore at Japan");
+                A4.setText("Indonesia, Japan, Canada");
 
 
                 scoreTxt.setText(score + 1 + "");
 
             } else {
                 //incorrect
-                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is through",
+                Toast.makeText(getApplicationContext(), "Wrong, Tamang sagot ay APEC",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("34. It is not safe to run _____ the streets espicially along busy roads.");
+                quiz.setText("34. Ang sumusunod ang mga bansang kasapi sa APEC maliban sa ilan.");
 
-                A1.setText("across");
-                A2.setText("before");
-                A3.setText("during");
-                A4.setText("through");
+                A1.setText("Egypt, Eutopia at Mali");
+                A2.setText("Malaysia, Thailand at Vietnam ");
+                A3.setText("China, Singapore at Japan");
+                A4.setText("Indonesia, Japan, Canada");
 
 
 
@@ -1228,30 +1228,30 @@ public class Hekasi extends Activity {
         }
 
         if (n == 33) {
-            if (answerContent.equals("across")) {
+            if (answerContent.equals("Egypt, Eutopia at Mali")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("35. Cedric became proud when he was chosen as the valuable basketbal player.");
+                quiz.setText("35. Saan matatagpuan ang punong himpilan ng Nagkakaisang Bansa o United Nations Organizations?");
 
-                A1.setText("simple sentence");
-                A2.setText("compound sentence");
-                A3.setText("complex sentence");
-                A4.setText("none of the above");
+                A1.setText("Manila, Philipines");
+                A2.setText("Geneva, Switzerland");
+                A3.setText("New York City, New York, USA");
+                A4.setText("Paris, France");
 
 
                 scoreTxt.setText(score + 1 + "");
 
             } else {
                 //incorrect
-                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is across",
+                Toast.makeText(getApplicationContext(), "Wrong, Tamang sagot ay Egypt, Eutopia at Mali",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("35. Cedric became proud when he was chosen as the valuable basketbal player.");
+                quiz.setText("35. Saan matatagpuan ang punong himpilan ng Nagkakaisang Bansa o United Nations Organizations?");
 
-                A1.setText("simple sentence");
-                A2.setText("compound sentence");
-                A3.setText("complex sentence");
-                A4.setText("none of the above");
+                A1.setText("Manila, Philipines");
+                A2.setText("Geneva, Switzerland");
+                A3.setText("New York City, New York, USA");
+                A4.setText("Paris, France");
 
 
 
@@ -1262,30 +1262,30 @@ public class Hekasi extends Activity {
 
 
         if (n == 34) {
-            if (answerContent.equals("complex sentence")) {
+            if (answerContent.equals("New York City, New York, USA")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("36. He is an active and cheerful boy.");
+                quiz.setText("36. Anong kasunduan ang nagsalin ng pamamahala sa Pilipinas sa mga Amerikano na mula sa mga Kastila?");
 
-                A1.setText("simple sentence");
-                A2.setText("compound sentence");
-                A3.setText("complex sentence");
-                A4.setText("none of the above");
+                A1.setText("Military Bases Agreement");
+                A2.setText("Parity Rights");
+                A3.setText("Treaty of Paris");
+                A4.setText("Mutual Agreement Pack");
 
 
                 scoreTxt.setText(score + 1 + "");
 
             } else {
                 //incorrect
-                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is complex sentence",
+                Toast.makeText(getApplicationContext(), "Wrong, Tamang sagot ay New York City, New York, USA",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("36. He is an active and cheerful boy.");
+                quiz.setText("36. Anong kasunduan ang nagsalin ng pamamahala sa Pilipinas sa mga Amerikano na mula sa mga Kastila?");
 
-                A1.setText("simple sentence");
-                A2.setText("compound sentence");
-                A3.setText("complex sentence");
-                A4.setText("none of the above");
+                A1.setText("Military Bases Agreement");
+                A2.setText("Parity Rights");
+                A3.setText("Treaty of Paris");
+                A4.setText("Mutual Agreement Pack");
 
 
 
@@ -1296,30 +1296,30 @@ public class Hekasi extends Activity {
 
 
         if (n == 35) {
-            if (answerContent.equals("simple sentence")) {
+            if (answerContent.equals("Treaty of Paris")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("37. He is active in sports and he can play a musical instrument too.");
+                quiz.setText("37. Ito ay isang mahalagang pangyayari sa kasaysayan ng ating bansa kung saan naging hudyat ito ng himagsikan laban sa mga Kastila. Saan ito naganap?");
 
-                A1.setText("simple sentence");
-                A2.setText("compound sentence");
-                A3.setText("complex sentence");
-                A4.setText("none of the above");
+                A1.setText("sa Balintawak");
+                A2.setText("sa Mandaluyong");
+                A3.setText("sa Tondo, Maynila");
+                A4.setText("sa Malolos, Bulacan");
 
 
                 scoreTxt.setText(score + 1 + "");
 
             } else {
                 //incorrect
-                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is simple sentence",
+                Toast.makeText(getApplicationContext(), "Wrong, Tamang sagot ay Treaty of Paris",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("37. He is active in sports and he can play a musical instrument too.");
+                quiz.setText("37. Ito ay isang mahalagang pangyayari sa kasaysayan ng ating bansa kung saan naging hudyat ito ng himagsikan laban sa mga Kastila. Saan ito naganap?");
 
-                A1.setText("simple sentence");
-                A2.setText("compound sentence");
-                A3.setText("complex sentence");
-                A4.setText("none of the above");
+                A1.setText("sa Balintawak");
+                A2.setText("sa Mandaluyong");
+                A3.setText("sa Tondo, Maynila");
+                A4.setText("sa Malolos, Bulacan");
 
 
 
@@ -1329,30 +1329,30 @@ public class Hekasi extends Activity {
         }
 
         if (n == 36) {
-            if (answerContent.equals("complex sentence")) {
+            if (answerContent.equals("sa Balintawak")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("38. Daang hari Elementary School is located beside the PTRI compound.");
+                quiz.setText("38. Alin sa mga sumusunod ang nagpapahayag tungkol sa kaunlaran?");
 
-                A1.setText("simple sentence");
-                A2.setText("compound sentence");
-                A3.setText("complex sentence");
-                A4.setText("none of the above");
+                A1.setText("Ang kaunlaran ay isang kondisyon ng isang bansa kung saan makikita ang kasiyahan at kapayapaan ng bawat mamamayan.");
+                A2.setText("Ang kaunlaran ay nakabatay lamang sa kung anong mayroon ang isang bansa");
+                A3.setText("Ang kaunlaran ay bahagi lamang ng kasaysayan ng isang bansang malaya kung saan maraming pakikipag-ugnayan sa ibang bansa ang ginagawa ng pamahalaan.");
+                A4.setText("Ang kaunlaran ay nababatay sa kung paano pinahahalagahan ng pamahalaan at mamamayan ang kalikasan at kalusugan ng bawat isa.");
 
 
                 scoreTxt.setText(score + 1 + "");
 
             } else {
                 //incorrect
-                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is complex sentence",
+                Toast.makeText(getApplicationContext(), "Wrong, Tamang sagot ay sa Balintawak",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("38. Daang hari Elementary School is located beside the PTRI compound.");
+                quiz.setText("38. Alin sa mga sumusunod ang nagpapahayag tungkol sa kaunlaran?");
 
-                A1.setText("simple sentence");
-                A2.setText("compound sentence");
-                A3.setText("complex sentence");
-                A4.setText("none of the above");
+                A1.setText("Ang kaunlaran ay isang kondisyon ng isang bansa kung saan makikita ang kasiyahan at kapayapaan ng bawat mamamayan.");
+                A2.setText("Ang kaunlaran ay nakabatay lamang sa kung anong mayroon ang isang bansa");
+                A3.setText("Ang kaunlaran ay bahagi lamang ng kasaysayan ng isang bansang malaya kung saan maraming pakikipag-ugnayan sa ibang bansa ang ginagawa ng pamahalaan.");
+                A4.setText("Ang kaunlaran ay nababatay sa kung paano pinahahalagahan ng pamahalaan at mamamayan ang kalikasan at kalusugan ng bawat isa.");
 
 
 
@@ -1362,30 +1362,30 @@ public class Hekasi extends Activity {
         }
 
         if (n == 37) {
-            if (answerContent.equals("simple sentence")) {
+            if (answerContent.equals("Ang kaunlaran ay nababatay sa kung paano pinahahalagahan ng pamahalaan at mamamayan ang kalikasan at kalusugan ng bawat isa.")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("39. My parents are both busy at work but they find time to attend school meetings");
+                quiz.setText("39. Kailan naihalal si Joseph Estrada bilang pangulo ng Pilipinas?");
 
-                A1.setText("simple sentence");
-                A2.setText("compound sentence");
-                A3.setText("complex sentence");
-                A4.setText("none of the above");
+                A1.setText("Mayo 11, 1998");
+                A2.setText("Mayo 3, 1979");
+                A3.setText("Mayo 12, 1997");
+                A4.setText("Mayo 10, 1998");
 
 
                 scoreTxt.setText(score + 1 + "");
 
             } else {
                 //incorrect
-                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is simple sentence",
+                Toast.makeText(getApplicationContext(), "Wrong, Tamang sagot ay Ang kaunlaran ay nababatay sa kung paano pinahahalagahan ng pamahalaan at mamamayan ang kalikasan at kalusugan ng bawat isa.",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("39. My parents are both busy at work but they find time to attend school meetings");
+                quiz.setText("39. Kailan naihalal si Joseph Estrada bilang pangulo ng Pilipinas?");
 
-                A1.setText("simple sentence");
-                A2.setText("compound sentence");
-                A3.setText("complex sentence");
-                A4.setText("none of the above");
+                A1.setText("Mayo 11, 1998");
+                A2.setText("Mayo 3, 1979");
+                A3.setText("Mayo 12, 1997");
+                A4.setText("Mayo 10, 1998");
 
 
 
@@ -1395,30 +1395,30 @@ public class Hekasi extends Activity {
         }
 
         if (n == 38) {
-            if (answerContent.equals("complex sentence")) {
+            if (answerContent.equals("Mayo 11, 1998")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("40. The teacher said, \"Class, pass yout assignments\".");
+                quiz.setText("40. Siya ang ikalabintatlong pangulo n gating bansa na nanumpa sa kanyang tungkulin bilang Pangulo ng Pilipinas sa Barasoain Church, Malolos, Bulacan");
 
-                A1.setText("The teacher told the class to pass their assignments");
-                A2.setText("The teacher asked the class to pass their assignments");
-                A3.setText("The teacher asked the class if they passed their assignments");
-                A4.setText("The teacher requested the class if they passed their assignments");
+                A1.setText("Fidel V. Ramos");
+                A2.setText("Corazon C. Aquino");
+                A3.setText("Joseph E. Estrada");
+                A4.setText("Gloria M. Arroyo");
 
 
                 scoreTxt.setText(score + 1 + "");
 
             } else {
                 //incorrect
-                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is complex sentence",
+                Toast.makeText(getApplicationContext(), "Wrong, Tamang sagot ay Mayo 11, 1998",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("40. The teacher said, \"Class, pass yout assignments\".");
+                quiz.setText("40. Siya ang ikalabintatlong pangulo n gating bansa na nanumpa sa kanyang tungkulin bilang Pangulo ng Pilipinas sa Barasoain Church, Malolos, Bulacan");
 
-                A1.setText("The teacher told the class to pass their assignments");
-                A2.setText("The teacher asked the class to pass their assignments");
-                A3.setText("The teacher asked the class if they passed their assignments");
-                A4.setText("The teacher requested the class if they passed their assignments");
+                A1.setText("Fidel V. Ramos");
+                A2.setText("Corazon C. Aquino");
+                A3.setText("Joseph E. Estrada");
+                A4.setText("Gloria M. Arroyo");
 
 
 
@@ -1428,30 +1428,30 @@ public class Hekasi extends Activity {
         }
 
         if (n == 39) {
-            if (answerContent.equals("The teacher told the class to pass their assignments")) {
+            if (answerContent.equals("Joseph E. Estrada")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("41. Mother said, \"Honey, please fix the roof\".");
+                quiz.setText("41. Ano ang bumubuo sa populasyon?");
 
-                A1.setText("Mother told Father to fix the roof");
-                A2.setText("Mother asked Father if he can fix the roof");
-                A3.setText("Mother requested Father to fix the roof");
-                A4.setText("Mother commanded Father to fix the roof");
+                A1.setText("mga lupain");
+                A2.setText("mga pagkain");
+                A3.setText("mga kagubatan");
+                A4.setText("mga mamamayan");
 
 
                 scoreTxt.setText(score + 1 + "");
 
             } else {
                 //incorrect
-                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is The teacher told the class to pass their assignments",
+                Toast.makeText(getApplicationContext(), "Wrong, Tamang sagot ay Joseph E. Estrada",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("41. Mother said, \"Honey, please fix the roof\".");
+                quiz.setText("41. Ano ang bumubuo sa populasyon?");
 
-                A1.setText("Mother told Father to fix the roof");
-                A2.setText("Mother asked Father if he can fix the roof");
-                A3.setText("Mother requested Father to fix the roof");
-                A4.setText("Mother commanded Father to fix the roof");
+                A1.setText("mga lupain");
+                A2.setText("mga pagkain");
+                A3.setText("mga kagubatan");
+                A4.setText("mga mamamayan");
 
 
 
@@ -1461,30 +1461,30 @@ public class Hekasi extends Activity {
         }
 
         if (n == 40) {
-            if (answerContent.equals("Mother requested Father to fix the roof")) {
+            if (answerContent.equals("mga mamamayan")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("42. \"Denzel, will you carry my bags upstairs\", the teacher said.");
+                quiz.setText("42. Mabisang kasama sa produksyon ang mga mangagagawa kung");
 
-                A1.setText("The teacher asked Denzel if he will carry the bag upstairs");
-                A2.setText("The teacher requested Denzel to carry her bag upstairs");
-                A3.setText("The teacher commanded Denzel to carry her bag upstairs");
-                A4.setText("The teacher told Denzel to carry her bag upstairs");
+                A1.setText("sakitin");
+                A2.setText("palaasa");
+                A3.setText("mapagsarili");
+                A4.setText("malalakas at matatalino");
 
 
                 scoreTxt.setText(score + 1 + "");
 
             } else {
                 //incorrect
-                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is Mother requested Father to fix the roof",
+                Toast.makeText(getApplicationContext(), "Wrong, Tamang sagot ay mga mamamayan",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("42. \"Denzel, will you carry my bags upstairs\", the teacher said.");
+                quiz.setText("42. Mabisang kasama sa produksyon ang mga mangagagawa kung");
 
-                A1.setText("The teacher asked Denzel if he will carry the bag upstairs");
-                A2.setText("The teacher requested Denzel to carry her bag upstairs");
-                A3.setText("The teacher commanded Denzel to carry her bag upstairs");
-                A4.setText("The teacher told Denzel to carry her bag upstairs");
+                A1.setText("sakitin");
+                A2.setText("palaasa");
+                A3.setText("mapagsarili");
+                A4.setText("malalakas at matatalino");
 
 
 
@@ -1495,30 +1495,30 @@ public class Hekasi extends Activity {
 
 
         if (n == 41) {
-            if (answerContent.equals("The teacher requested Denzel to carry her bag upstairs")) {
+            if (answerContent.equals("malalakas at matatalino")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("43. Dexter said, \"I am an only child\".");
+                quiz.setText("43. Ano ang tawag sa bilang at dami ng tao sa isang lugar?");
 
-                A1.setText("Dexter told me that he is an only child.");
-                A2.setText("Dexter asked me if he is an only child.");
-                A3.setText("Dexter said that he is the only child.");
-                A4.setText("Dexter commanded that he must be the only child");
+                A1.setText("polusyon");
+                A2.setText("nutrisyon");
+                A3.setText("populasyon");
+                A4.setText("intitusyon");
 
 
                 scoreTxt.setText(score + 1 + "");
 
             } else {
                 //incorrect
-                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is The teacher requested Denzel to carry her bag upstairs",
+                Toast.makeText(getApplicationContext(), "Wrong, Tamang sagot ay malalakas at matatalino",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("43. Dexter said, \"I am an only child\".");
+                quiz.setText("43. Ano ang tawag sa bilang at dami ng tao sa isang lugar?");
 
-                A1.setText("Dexter told me that he is an only child.");
-                A2.setText("Dexter asked me if he is an only child.");
-                A3.setText("Dexter said that he is the only child.");
-                A4.setText("Dexter commanded that he must be the only child");
+                A1.setText("polusyon");
+                A2.setText("nutrisyon");
+                A3.setText("populasyon");
+                A4.setText("intitusyon");
 
 
 
@@ -1528,30 +1528,30 @@ public class Hekasi extends Activity {
         }
 
         if (n == 42) {
-            if (answerContent.equals("Dexter said that he is the only child.")) {
+            if (answerContent.equals("populasyon")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("44. Grandma said,\" Five pesos used to buy a lot from the market\".");
+                quiz.setText("44. Paano nasusukat ang kapal ng populasyon?");
 
-                A1.setText("Grandma told me that five pesos used to buy a lot in the market");
-                A2.setText("Grandma said that five pesos used to buy a lot in the market.");
-                A3.setText("Grandma asked if five pesos used to buy a lot in the market.");
-                A4.setText("Gradma commanded that five pesos should a lot in the market.");
+                A1.setText("kilometrong parisukat");
+                A2.setText("metrong parisukat");
+                A3.setText("milyang parisukat");
+                A4.setText("ektaryang parisukat");
 
 
                 scoreTxt.setText(score + 1 + "");
 
             } else {
                 //incorrect
-                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is Dexter said that he is the only child.",
+                Toast.makeText(getApplicationContext(), "Wrong, Tamang sagot ay populasyon",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("44. Grandma said,\" Five pesos used to buy a lot from the market\".");
+                quiz.setText("44. Paano nasusukat ang kapal ng populasyon?");
 
-                A1.setText("Grandma told me that five pesos used to buy a lot in the market");
-                A2.setText("Grandma said that five pesos used to buy a lot in the market.");
-                A3.setText("Grandma asked if five pesos used to buy a lot in the market.");
-                A4.setText("Gradma commanded that five pesos should a lot in the market.");
+                A1.setText("kilometrong parisukat");
+                A2.setText("metrong parisukat");
+                A3.setText("milyang parisukat");
+                A4.setText("ektaryang parisukat");
 
 
 
@@ -1561,30 +1561,30 @@ public class Hekasi extends Activity {
         }
 
         if (n == 43) {
-            if (answerContent.equals("Grandma said that five pesos used to buy a lot in the market.")) {
+            if (answerContent.equals("ektaryang parisukat")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("45. Cristian asked,\" Do you believe in ghost, Andre\"?");
+                quiz.setText("45. Ang distribusyon ng populasyon ay nasusukat sa pamamagitan ng");
 
-                A1.setText("Cristian asked Andre if you believe in ghost.");
-                A2.setText("Cristian asked Andre if he believes in ghost.");
-                A3.setText("Cristian requested Andre to believe in ghost");
-                A4.setText("Cristian told Andre to belive in ghost.");
+                A1.setText("kapal ng populasyon");
+                A2.setText("kilometrong parisukat");
+                A3.setText("distribusyon");
+                A4.setText("dami ng tao");
 
 
                 scoreTxt.setText(score + 1 + "");
 
             } else {
                 //incorrect
-                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is Grandma said that five pesos used to buy a lot in the market.",
+                Toast.makeText(getApplicationContext(), "Wrong, Tamang sagot ay ektaryang parisukat",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("45. Cristian asked,\" Do you believe in ghost, Andre\"?");
+                quiz.setText("45. Ang distribusyon ng populasyon ay nasusukat sa pamamagitan ng");
 
-                A1.setText("Cristian asked Andre if you believe in ghost.");
-                A2.setText("Cristian asked Andre if he believes in ghost.");
-                A3.setText("Cristian requested Andre to believe in ghost");
-                A4.setText("Cristian told Andre to belive in ghost.");
+                A1.setText("kapal ng populasyon");
+                A2.setText("kilometrong parisukat");
+                A3.setText("distribusyon");
+                A4.setText("dami ng tao");
 
 
 
@@ -1594,30 +1594,30 @@ public class Hekasi extends Activity {
         }
 
         if (n == 44) {
-            if (answerContent.equals("Cristian asked Andre if he believes in ghost.")) {
+            if (answerContent.equals("kapal ng populasyon")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("46. Danielle asked the clerk, \"Is your office open on Saturdays?\"");
+                quiz.setText("46. Ang isang katangian ng populasyon ng Pilipinas ay");
 
-                A1.setText("Danielle asked the clerk if their office is open on Saturdays?");
-                A2.setText("Danielle asked the clerk if their office is open on Saturdays?");
-                A3.setText("Danielle told the clerk to open their office on Saturdays.");
-                A4.setText("Danielle requested the clerk to open her office on Saturdays.");
+                A1.setText("pantay na distribusyon");
+                A2.setText("hindi pantay na distribusyon");
+                A3.setText("walang distribusyon");
+                A4.setText("maraming distribusyon");
 
 
                 scoreTxt.setText(score + 1 + "");
 
             } else {
                 //incorrect
-                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is Cristian asked Andre if he believes in ghost.",
+                Toast.makeText(getApplicationContext(), "Wrong, Tamang sagot ay kapal ng populasyon",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("46. Danielle asked the clerk, \"Is your office open on Saturdays?\"");
+                quiz.setText("46. Ang isang katangian ng populasyon ng Pilipinas ay");
 
-                A1.setText("Danielle asked the clerk if their office is open on Saturdays?");
-                A2.setText("Danielle asked the clerk if their office is open on Saturdays?");
-                A3.setText("Danielle told the clerk to open their office on Saturdays.");
-                A4.setText("Danielle requested the clerk to open her office on Saturdays.");
+                A1.setText("pantay na distribusyon");
+                A2.setText("hindi pantay na distribusyon");
+                A3.setText("walang distribusyon");
+                A4.setText("maraming distribusyon");
 
 
 
@@ -1628,30 +1628,30 @@ public class Hekasi extends Activity {
 
 
         if (n == 45) {
-            if (answerContent.equals("Danielle asked the clerk if their office is open on Saturdays?")) {
+            if (answerContent.equals("hindi pantay na distribusyon")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("47. Truly, that woman has a heart of gold");
+                quiz.setText("47. Ang populasyon ng Pilipinas ayon sa gulang at kasarian ay");
 
-                A1.setText("Simile");
-                A2.setText("Metaphor");
-                A3.setText("Personification");
-                A4.setText("Hyperbole");
+                A1.setText("magulang");
+                A2.setText("matanda");
+                A3.setText("bata");
+                A4.setText("binata");
 
 
                 scoreTxt.setText(score + 1 + "");
 
             } else {
                 //incorrect
-                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is Danielle asked the clerk if their office is open on Saturdays?.",
+                Toast.makeText(getApplicationContext(), "Wrong, Tamang sagot ay hindi pantay na distribusyon",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("47. Truly, that woman has a heart of gold");
+                quiz.setText("47. Ang populasyon ng Pilipinas ayon sa gulang at kasarian ay");
 
-                A1.setText("Simile");
-                A2.setText("Metaphor");
-                A3.setText("Personification");
-                A4.setText("Hyperbole");
+                A1.setText("magulang");
+                A2.setText("matanda");
+                A3.setText("bata");
+                A4.setText("binata");
 
 
 
@@ -1661,30 +1661,30 @@ public class Hekasi extends Activity {
         }
 
         if (n == 46) {
-            if (answerContent.equals("Metaphor")) {
+            if (answerContent.equals("bata")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("48. I will love you until the rivers run dry.");
+                quiz.setText("48. Sila ay bumubuo ng populasyon malakas sa paggawa");
 
-                A1.setText("Simile");
-                A2.setText("Metaphor");
-                A3.setText("Personification");
-                A4.setText("Hyperbole");
+                A1.setText("65 pataas");
+                A2.setText("0-14");
+                A3.setText("0-13");
+                A4.setText("15-64");
 
 
                 scoreTxt.setText(score + 1 + "");
 
             } else {
                 //incorrect
-                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is Metaphor.",
+                Toast.makeText(getApplicationContext(), "Wrong, Tamang sagot ay bata",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("48. I will love you until the rivers run dry.");
+                quiz.setText("48. Sila ay bumubuo ng populasyon malakas sa paggawa");
 
-                A1.setText("Simile");
-                A2.setText("Metaphor");
-                A3.setText("Personification");
-                A4.setText("Hyperbole");
+                A1.setText("65 pataas");
+                A2.setText("0-14");
+                A3.setText("0-13");
+                A4.setText("15-64");
 
 
 
@@ -1694,30 +1694,30 @@ public class Hekasi extends Activity {
         }
 
         if (n == 47) {
-            if (answerContent.equals("Hyperbole")) {
+            if (answerContent.equals("15-64")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("49. The wind whispers secrets of better days");
+                quiz.setText("49. Ang kabuuang populasyon sa taong 2016 ay");
 
-                A1.setText("Simile");
-                A2.setText("Metaphor");
-                A3.setText("Personification");
-                A4.setText("Hyperbole");
+                A1.setText("mahigit 97 milyon");
+                A2.setText("mahigit 100 milyon");
+                A3.setText("mahigit 77 milyon");
+                A4.setText("mahigit 37 milyon");
 
 
                 scoreTxt.setText(score + 1 + "");
 
             } else {
                 //incorrect
-                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is Hyperbole.",
+                Toast.makeText(getApplicationContext(), "Wrong, Tamang sagot ay 15-64",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("49. The wind whispers secrets of better days");
+                quiz.setText("49. Ang kabuuang populasyon sa taong 2016 ay");
 
-                A1.setText("Simile");
-                A2.setText("Metaphor");
-                A3.setText("Personification");
-                A4.setText("Hyperbole");
+                A1.setText("mahigit 97 milyon");
+                A2.setText("mahigit 100 milyon");
+                A3.setText("mahigit 77 milyon");
+                A4.setText("mahigit 37 milyon");
 
 
 
@@ -1728,30 +1728,30 @@ public class Hekasi extends Activity {
 
 
         if (n == 48) {
-            if (answerContent.equals("Personification")) {
+            if (answerContent.equals("mahigit 100 milyon")) {
                 Toast.makeText(getApplicationContext(), "Correct",
                         Toast.LENGTH_SHORT).show();
-                quiz.setText("50. He guards like a leach.");
+                quiz.setText("50. Ang pagcensus ng populayon ay isinisigawa kada");
 
-                A1.setText("Simile");
-                A2.setText("Metaphor");
-                A3.setText("Personification");
-                A4.setText("Hyperbole");
+                A1.setText("10 araw");
+                A2.setText("10 linggo");
+                A3.setText("10 buwan");
+                A4.setText("10 taon");
 
 
                 scoreTxt.setText(score + 1 + "");
 
             } else {
                 //incorrect
-                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is Personification.",
+                Toast.makeText(getApplicationContext(), "Wrong, Tamang sagot ay mahigit 100 milyon",
                         Toast.LENGTH_SHORT).show();
 
-                quiz.setText("50. He guards like a leach.");
+                quiz.setText("50. Ang pagcensus ng populayon ay isinisigawa kada");
 
-                A1.setText("Simile");
-                A2.setText("Metaphor");
-                A3.setText("Personification");
-                A4.setText("Hyperbole");
+                A1.setText("10 araw");
+                A2.setText("10 linggo");
+                A3.setText("10 buwan");
+                A4.setText("10 taon");
 
 
 
@@ -1770,7 +1770,7 @@ public class Hekasi extends Activity {
             Button e4 =(Button) findViewById(R.id.b2);
             Button e5 =(Button) findViewById(R.id.b3);
             Button e3 =(Button) findViewById(R.id.erase);
-            if (answerContent.equals("Simile")){
+            if (answerContent.equals("10 araw")){
                 scoreTxt.setText(score + 1 + "");
 
                 Toast.makeText(getApplicationContext(), "Correct",
@@ -1788,7 +1788,7 @@ public class Hekasi extends Activity {
 
                 scoreTxt.setText(score + 0 + "");
                 //incorrect
-                Toast.makeText(getApplicationContext(), "Wrong, Correct Answer is Simile.",
+                Toast.makeText(getApplicationContext(), "Wrong, Tamang sagot ay 10 araw",
                         Toast.LENGTH_SHORT).show();
 
                 endbutton.setEnabled(false);
